@@ -1,250 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trees For Life (Non-profit)</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="stylesheet" href="css/stylecer.css">
-    <script src="js/index.js" defer></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/style5.css">
-    <link rel="stylesheet" href="CSS/animate.min.css">
-    <link rel="stylesheet" href="CSS/animate.compat.css">
-    <link rel="stylesheet" href="CSS/animate.css">
-    <link rel="icon" href="images/icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trees For Life (Non-profit)</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/stylecer.css">
+  <script src="js/index.js" defer></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style5.css">
+  <link rel="stylesheet" href="CSS/animate.min.css">
+  <link rel="stylesheet" href="CSS/animate.compat.css">
+  <link rel="stylesheet" href="CSS/animate.css">
+  <link rel="icon" href="images/icon.png">
 
 </head>
+
 <body data-spy="scroll" data-target="#navbarSupportedContent">
-    
+
   <header>
-<!--NavBar-->
+    <!--NavBar-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a class="navbar-brand" href="index.html"><img src="images/icon.svg" alt="logo" style="max-height:50px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#part1">Intro</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#part1">Intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#part2">User Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#part3">User Persona</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#part4">Style Guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#part5">AB Testing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#part6">Next Steps</a>
+          </li>
+        </ul>
+        <a class="btn btn-light my-2 my-sm-0" href="index.html">Back</a>
+      </div>
+    </nav>
+
+    <!--header-->
+    <div class="mid">
+      <img class="embed-responsive" src="images/casestudy5/background@2x.png" alt="background">
+      <div class="hero text-center">
+        <h2 class="text-light display-4 font-weight-bold container text-center mx-auto">Trees For Life</h2>
+        <p class="text-light mx-auto bg-black text-center lead">UX Redesign Case Study of a Non-Profit Organisation.</p>
+      </div>
+    </div>
+  </header>
+
+  <!--about-->
+  <main>
+
+    <div class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0s">
+      <dl class="text-md-center mb-5 justify-content-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <dt class="font-weight-light text-secondary">Client</dt>
+              <dd>NFP</dd>
+            </div>
+            <div class="col-md-3">
+              <dt class="font-weight-light text-secondary">Year</dt>
+              <dd>2020</dd>
+            </div>
+            <div class="col-md-3">
+              <dt class="font-weight-light text-secondary">Service</dt>
+              <dd>Web Redesign</dd>
+            </div>
+            <div class="col-md-3">
+              <dt class="font-weight-light text-secondary">Website</dt>
+              <dd>treesforlife.org.au</dd>
+            </div>
+          </div>
+        </div>
+      </dl>
+    </div>
+
+    <section id="part1" class="about py-5">
+      <div class="row align-items-center container my-5 mx-auto">
+        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <h6>Part 1</h6>
+          <h2>The Problem</h2>
+          <p>The website needs a little polishing and clearer, simpler user flows, as well as new functionality to
+            increase community engagement.
+          </p>
+        </div>
+        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <img class="img-fluid" src="images/casestudy5/mobile1@2x.png" alt="screenshot">
+        </div>
+      </div>
+    </section>
+
+    <section class="about py-5">
+      <div class="row align-items-center container my-5 mx-auto">
+        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <img class="img-fluid" src="images/casestudy5/mobile2@2x.png" alt="screenshot">
+        </div>
+        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <h2>The Solution</h2>
+          <p>A redesigned homepage that better communicates Trees for Life’s mission to visitors and new pages with a
+            new workshop sign-up feature and a simplified donation process.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="part1" class="about py-5">
+      <div class="row align-items-center container my-5 mx-auto">
+        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <h2>Stakeholder Interview</h2>
+          <p>By intervirwing the stakeholder, we identified key areas of improvement on the site:
+          </p>
+          <ul class="interview">
+            <li>Too many different pages and too much text
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#part2">User Research</a>
+            <li>Needs to be more minimalistic and visually appealing
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#part3">User Persona</a>
+            <li>Needs an online booking systems for volunteering opportunities
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#part4">Style Guide</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#part5">AB Testing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#part6">Next Steps</a>
+            <li>
+              A bigger emphasis on TFL being a South Australian not-for-profit organisation
             </li>
           </ul>
-            <a class="btn btn-light my-2 my-sm-0" href="index.html">Back</a>
         </div>
-      </nav>
-
-      <!--header-->
-      <div class="mid">
-        <img class="embed-responsive" src="images/casestudy5/background@2x.png" alt="background">
-        <div class="hero text-center">
-          <h2 class="text-light display-4 font-weight-bold container text-center mx-auto">Trees For Life</h2>
-          <p class="text-light mx-auto bg-black text-center lead">UX Redesign Case Study of a Non-Profit Organisation.</p>
+        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <img class="img-fluid" src="images/casestudy5/001macbook-pro-mockup-floating-to-the-left@2x.png"
+            alt="screenshot">
         </div>
       </div>
-</header>
+    </section>
 
- <!--about-->
-<main>
-
-  <div class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0s">
-    <dl class="text-md-center mb-5 justify-content-center">
-        <div class="container">
-        <div class="row">
-        <div class="col-md-3">
-            <dt class="font-weight-light text-secondary">Client</dt>
-            <dd>NFP</dd>
+    <section id="part2" class="cameras py-5">
+      <div class="row align-items-center container my-5 mx-auto">
+        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <h6>Part 2</h6>
+          <h2>User Research</h2>
+          <p>Key Insights From Surveys:
+          </p>
+          <ul>
+            <li>Most participants were aged 25- 44 and already involved in an NFP
+            </li>
+            <li>Attending a workshop and donating were preferred options as a first step in engaging with Trees for Life
+            </li>
+            <li>Needs an online booking systems for volunteering opportunities
+            </li>
+            <li>
+              A bigger emphasis on TFL being a South Australian not-for-profit organisation
+            </li>
+          </ul>
         </div>
-        <div class="col-md-3">
-            <dt class="font-weight-light text-secondary">Year</dt>
-            <dd>2020</dd>
+        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <p>Key Insights From Interviews and Tests:
+          </p>
+          <ul>
+            <li>Evidence of impact of NFP
+            </li>
+            <li>Sign-up and booking
+            </li>
+            <li>Confirmation for workshops
+            </li>
+            <li>
+              Secure and simpler donations
+            </li>
+            <li>
+              Better content chunking
+            </li>
+          </ul>
         </div>
-        <div class="col-md-3">
-            <dt class="font-weight-light text-secondary">Service</dt>
-            <dd>Web Redesign</dd>
+        <div class="img col-lg-6 col-md-12 col-12 w-50 pt-5 pb-5">
+          <img class="img-fluid" src="images/casestudy5/imac-mockup-floor-shadow-1@2x.png" alt="screenshot">
         </div>
-        <div class="col-md-3">
-            <dt class="font-weight-light text-secondary">Website</dt>
-            <dd>treesforlife.org.au</dd>
+        <div class="img col-lg-6 col-md-12 col-12 w-50 pt-5 pb-5">
+          <img class="img-fluid" src="images/casestudy5/imac-mockup-floor-shadow@2x.png" alt="screenshot">
         </div>
-    </div>
-    </div>
-    </dl>
-    </div>
+      </div>
+    </section>
 
-  <section id="part1" class="about py-5">
-    <div class="row align-items-center container my-5 mx-auto">
-      <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-        <h6>Part 1</h6>
-        <h2>The Problem</h2>
-        <p>The website needs a little polishing and clearer, simpler user flows, as well as new functionality to increase community engagement.
-        </p>
-      </div>
-      <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-        <img class="img-fluid" src="images/casestudy5/mobile1@2x.png" alt="screenshot">
-      </div>
-    </div>
-  </section>
-
-  <section class="about py-5">
-    <div class="row align-items-center container my-5 mx-auto">
-      <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-        <img class="img-fluid" src="images/casestudy5/mobile2@2x.png" alt="screenshot">
-      </div>
-      <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-        <h2>The Solution</h2>
-        <p>A redesigned homepage that better communicates Trees for Life’s mission to visitors and new pages with a new workshop sign-up feature and a simplified donation process.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="part1" class="about py-5">
-    <div class="row align-items-center container my-5 mx-auto">
-      <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-        <h2>Stakeholder Interview</h2>
-        <p>By intervirwing the stakeholder, we identified key areas of improvement on the site:
-        </p>
-        <ul class="interview">
-          <li>Too many different pages and too much text
-          </li>
-          <li>Needs to be more minimalistic and visually appealing
-          </li>
-          <li>Needs an online booking systems for volunteering opportunities
-          </li>
-          <li>
-            A bigger emphasis on TFL being a South Australian not-for-profit organisation
-          </li>
-      </ul>
-      </div>
-      <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-        <img class="img-fluid" src="images/casestudy5/001macbook-pro-mockup-floating-to-the-left@2x.png" alt="screenshot">
-      </div>
-    </div>
-  </section>
-
-  <section id="part2" class="cameras py-5">
-    <div class="row align-items-center container my-5 mx-auto">
-      <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-        <h6>Part 2</h6>
-        <h2>User Research</h2>
-        <p>Key Insights From Surveys:
-        </p>
-        <ul>
-          <li>Most participants were aged 25- 44 and already involved in an NFP
-          </li>
-          <li>Attending a workshop and donating were preferred options as a first step in engaging with Trees for Life
-          </li>
-          <li>Needs an online booking systems for volunteering opportunities
-          </li>
-          <li>
-            A bigger emphasis on TFL being a South Australian not-for-profit organisation
-          </li>
-      </ul>
-      </div>
-      <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-      <p>Key Insights From Interviews and Tests:
-      </p>
-      <ul>
-        <li>Evidence of impact of NFP
-        </li>
-        <li>Sign-up and booking
-        </li>
-        <li>Confirmation for workshops
-        </li>
-        <li>
-          Secure and simpler donations 
-        </li>
-        <li>
-          Better content chunking
-        </li>
-    </ul>
-  </div>
-      <div class="img col-lg-6 col-md-12 col-12 w-50 pt-5 pb-5">
-        <img class="img-fluid" src="images/casestudy5/imac-mockup-floor-shadow-1@2x.png" alt="screenshot">
-      </div>
-      <div class="img col-lg-6 col-md-12 col-12 w-50 pt-5 pb-5">
-        <img class="img-fluid" src="images/casestudy5/imac-mockup-floor-shadow@2x.png" alt="screenshot">
-      </div>
-    </div>
-  </section>
-
-  <section id="part3" class="cameras py-5">
-    <div class="row align-items-center container my-5 mx-auto">
-      <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-        <img class="img-fluid" src="images/casestudy5/persona@2x.png" alt="persona">
-      </div>
-      <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-        <h6>Part 2</h6>
-        <h2>User Persona</h2>
-        <h4>Name</h4>
-        <p>Jasper Brown</p>
-        <br>
-        <h4>Age</h4>
-        <p>35</p>
-        <br>
-        <h4>Location</h4>
-        <p>Adelaide</p>
-        <br>
-        <h4>Occupation</h4>
-        <p>Photograpger</p>
-        <br>
-        <h4>Goals</h4>
-        <ul>
+    <section id="part3" class="cameras py-5">
+      <div class="row align-items-center container my-5 mx-auto">
+        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <img class="img-fluid" src="images/casestudy5/persona@2x.png" alt="persona">
+        </div>
+        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <h6>Part 2</h6>
+          <h2>User Persona</h2>
+          <h4>Name</h4>
+          <p>Jasper Brown</p>
+          <br>
+          <h4>Age</h4>
+          <p>35</p>
+          <br>
+          <h4>Location</h4>
+          <p>Adelaide</p>
+          <br>
+          <h4>Occupation</h4>
+          <p>Photograpger</p>
+          <br>
+          <h4>Goals</h4>
+          <ul>
             <li>An easy way to donate
             </li>
             <li>Sign-up form, confirmation email and calendar integration for workshops and volunteering opportunities
-        </ul>
-        <br>
-        <h4>Pain Points</h4>
-        <ul>
+          </ul>
+          <br>
+          <h4>Pain Points</h4>
+          <ul>
             <li>Too many options to volunteer
             </li>
             <li>Length of donation process
             </li>
             <li>Workshop confirmations
             </li>
-        </ul>
-        <br>
+          </ul>
+          <br>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
     <!--Cards-->
     <section class="about py-5">
       <div class="col mx-auto align-items-center my-5">
-      <div class="heading text-center pt-5">
-        <h2 class="font-weight-bold pb-5 text-dark">User Flow</h2>
-      </div>
-      <div class="row mx-auto justify-content-center align-items-center text-center container">
-        <div class="one col-lg-12 col-md-12 col-12 w-25 m-2">
-          <h5 class="font-weight-bold pt-4">Workshops</h5>
-          <img class="img-fluid w-75" src="images/casestudy5/journey-1@2x.png" alt="subscribe">
+        <div class="heading text-center pt-5">
+          <h2 class="font-weight-bold pb-5 text-dark">User Flow</h2>
         </div>
+        <div class="row mx-auto justify-content-center align-items-center text-center container">
+          <div class="one col-lg-12 col-md-12 col-12 w-25 m-2">
+            <h5 class="font-weight-bold pt-4">Workshops</h5>
+            <img class="img-fluid w-75" src="images/casestudy5/journey-1@2x.png" alt="subscribe">
+          </div>
 
-        <div class="one col-lg-12 col-md-12 col-12 w-25 m-2">
-          <h5 class="font-weight-bold pt-4">Donate</h5>
-          <img class="img-fluid w-75" src="images/casestudy5/journey-2@2x.png" alt="register">
+          <div class="one col-lg-12 col-md-12 col-12 w-25 m-2">
+            <h5 class="font-weight-bold pt-4">Donate</h5>
+            <img class="img-fluid w-75" src="images/casestudy5/journey-2@2x.png" alt="register">
+          </div>
+
         </div>
-
-      </div>
       </div>
     </section>
 
@@ -253,98 +260,98 @@
         <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
           <h6>Part 4</h6>
           <h2>Style Guide</h2>
-                <div class="row">
-                <h3 class="col-md-8 mb-4 ml-4">Colours</h3>
-                </div>
-                <div class="row mb-4">
-                    <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
-                        <div class="colour1">
-                          #3B7F63
-                    </div>
-                  </div>
-                    <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
-                        <div class="colour2">
-                          #113A51
-                    </div>
-                </div>
-                    <div class="col-md-3 pt-2 pb-5 px-3 text-black ml-4 text-uppercase">
-                        <div class="colour3">
-                          #F3F8FC
-                    </div>
-                </div>
-                    <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
-                        <div class="colour4">
-                          #CCCDCD
-                    </div>
-                </div>
-                    <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
-                        <div class="colour5">
-                          #2D2E2E
-                    </div>
-                </div>
-                </container>
+          <div class="row">
+            <h3 class="col-md-8 mb-4 ml-4">Colours</h3>
+          </div>
+          <div class="row mb-4">
+            <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
+              <div class="colour1">
+                #3B7F63
+              </div>
             </div>
+            <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
+              <div class="colour2">
+                #113A51
+              </div>
+            </div>
+            <div class="col-md-3 pt-2 pb-5 px-3 text-black ml-4 text-uppercase">
+              <div class="colour3">
+                #F3F8FC
+              </div>
+            </div>
+            <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
+              <div class="colour4">
+                #CCCDCD
+              </div>
+            </div>
+            <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
+              <div class="colour5">
+                #2D2E2E
+              </div>
+            </div>
+            </container>
+          </div>
 
-<container class="container pb-5">
-<div class="row">
-<h3 class="col-md-6 mb-4 ml-8">Typography</h3>
-</div>
-<div class="row">
-<table class="table table-responsive-md ml-4 col-lg-12">
-<thead>
-<tr>
-<th>Type</th>
-<th>Example</th>
-<th>Font</th>
-<th>Font Size</th>
-</tr>
-</thead>
-<tbody>
-  <div class="h1">
-<tr>
-<td>Heading 1</td>
-<td>
-<p class="h1">Heading 1</p>
-</td>
-<td>Montserrat Bold</td>
-<td>48px</td>
-</tr>
-</div>
-<div class="h2">
-<tr>
-<td>Heading 2</td>
-<td>
-<p class="h2">Heading 2</p>
-</td>
-<td>Montserrat Medium</td>
-<td>32px</td>
-</tr>
-</div>
-<div class="h3">
-<tr>
-<td>Secondary 1</td>
-<td>
-<p class="h3">Subheading</p>
-</td>
-<td>Montserrat Regular</td>
-<td>24px</td>
-</tr>
-</div>
-<div class="h4">
-<td>
-<p class="h4">Paragraph</p>
-</td>
-<td>Paragraph</td>
-<td>Montserrat Regular</td>
-<td>16px</td>
-</tr>
-</div>
-<tr>
-</tbody>
-</table>
-</div>
-</container>
-</div>
+          <container class="container pb-5">
+            <div class="row">
+              <h3 class="col-md-6 mb-4 ml-8">Typography</h3>
+            </div>
+            <div class="row">
+              <table class="table table-responsive-md ml-4 col-lg-12">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Example</th>
+                    <th>Font</th>
+                    <th>Font Size</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <div class="h1">
+                    <tr>
+                      <td>Heading 1</td>
+                      <td>
+                        <p class="h1">Heading 1</p>
+                      </td>
+                      <td>Montserrat Bold</td>
+                      <td>48px</td>
+                    </tr>
+                  </div>
+                  <div class="h2">
+                    <tr>
+                      <td>Heading 2</td>
+                      <td>
+                        <p class="h2">Heading 2</p>
+                      </td>
+                      <td>Montserrat Medium</td>
+                      <td>32px</td>
+                    </tr>
+                  </div>
+                  <div class="h3">
+                    <tr>
+                      <td>Secondary 1</td>
+                      <td>
+                        <p class="h3">Subheading</p>
+                      </td>
+                      <td>Montserrat Regular</td>
+                      <td>24px</td>
+                    </tr>
+                  </div>
+                  <div class="h4">
+                    <td>
+                      <p class="h4">Paragraph</p>
+                    </td>
+                    <td>Paragraph</td>
+                    <td>Montserrat Regular</td>
+                    <td>16px</td>
+                    </tr>
+                  </div>
+                  <tr>
+                </tbody>
+              </table>
+            </div>
+          </container>
+        </div>
     </section>
 
     <section>
@@ -367,11 +374,11 @@
             <br>
             <p>
               Redesign homepage.
-          </p>
+            </p>
             <br>
             <p>
               Highlight impact of patrons.
-          </p>
+            </p>
             <br>
           </div>
         </div>
@@ -385,36 +392,45 @@
           <h2>AB Testing</h2>
           <p>OThrough AB Testing, we tested slight changes to our donation page.
           </p>
-          <p>We found mixed reviews of keeping subscription checkbox above the “confirm” CTA, however decided to keep that way.</p>
+          <p>We found mixed reviews of keeping subscription checkbox above the “confirm” CTA, however decided to keep
+            that way.</p>
           <p>No automatic donation frequency, as user may unknowingly subscribe to payments.</p>
-          </div>
-          <div class="col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <img class="img-fluid" src="images/casestudy5/002macbook-pro-mockup-floating-to-the-right@2x.png" alt="wireframe">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <img class="img-fluid" src="images/casestudy5/002macbook-pro-mockup-floating-to-the-right@2x.png"
+            alt="wireframe">
         </div>
     </section>
 
-        <section id="part6" class="cameras py-5">
-          <div class="row align-items-center container my-5 mx-auto">
-            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-              <img class="img-fluid" src="images/casestudy5/imac-mockup-floor-shadow02@2x.png" alt="screenshot">
-            </div>
-            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-              <h6>Part 6</h6>
-              <h2>Next Steps</h2>
-              <p>Workshops to include non members to attend for a small fee.</p>
-              <p>Simplified volunteer information flow and sign-up process.</p>
-              </div>
-              </div>
+    <section id="part6" class="cameras py-5">
+      <div class="row align-items-center container my-5 mx-auto">
+        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <img class="img-fluid" src="images/casestudy5/imac-mockup-floor-shadow02@2x.png" alt="screenshot">
+        </div>
+        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <h6>Part 6</h6>
+          <h2>Next Steps</h2>
+          <p>Workshops to include non members to attend for a small fee.</p>
+          <p>Simplified volunteer information flow and sign-up process.</p>
+        </div>
+      </div>
     </section>
-       
-</main> 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script>
-new WOW().init();
-</script>    
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 </body>
+
 </html>
