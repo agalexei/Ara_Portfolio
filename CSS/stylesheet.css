@@ -10,3 +10,23 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'suisse_intlbook';
+    src: url('suisseintl-book-webfont.woff2') format('woff2'),
+         url('suisseintl-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'suisse_intlbook';
+    src: url('suisseintl-book-webfont.woff2') format('woff2'),
+         url('suisseintl-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
