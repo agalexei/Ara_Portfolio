@@ -21,7 +21,6 @@
   </style>
   <link href="//db.onlinewebfonts.com/c/17241fb9c2ffb3ec11eba762e771435f?family=Suisse+Int'l+Book" rel="stylesheet"
     type="text/css" />
-    <script src="js/index.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Syncopate:wght@700&display=swap" rel="stylesheet">
@@ -47,10 +46,10 @@
 
 <body class="body">
 
-  <div class="container" data-scroll-container>
+  <div class="container">
 
-    <div class="row"data-scroll-section>
-      <div class="nav-container mx-auto d-block">
+    <div class="row" data-scroll-container>
+      <div class="nav-container mx-auto d-block"data-scroll-section>
         <div class="row banner" data-scroll>
           <div class="col-sm-3 small-container">
             <a href="index.html" aria-current="page" class="brand w--current">Freelance User Experience (UX) & Product
@@ -71,8 +70,8 @@
       </div>
     </div>
 
-    <div class="row" data-scroll-section>
-      <div class="section wf-section">
+    <div class="row" data-scroll-container>
+      <div class="section wf-section" data-scroll-section>
         <div class="main-container align-center"><a href="index.html"><img src="images/ArmenianEternity.svg"
               loading="lazy" alt="my logo" class="logo inline" data-scroll data-scroll-speed="1"></a><br>
           <div class="col-xs-12">
@@ -83,42 +82,42 @@
       </div>
     </div>
 
-    <div class="row" data-scroll-section>
-      <div class="main-container" data-scroll data-scroll-sticky><img src="images/me.jpg" loading="lazy" alt="image of me" class="image tilt-left">
+    <div class="row" data-scroll-container>
+      <div class="main-container" data-scroll-section><img data-scroll data-scroll-sticky src="images/me.jpg" loading="lazy" alt="image of me" class="image tilt-left">
       </div>
     </div>
 
-    <div class="row" data-scroll-section>
-      <div class="section wf-section">
-        <div class="main-container">
-          <h2 class="big-text" data-scroll data-scroll-speed="1" lerp="1">I am a graduate from Macquarie University with a Bachelor of Global Business, as well as
+    <div class="row" data-scroll-container>
+      <div class="section wf-section" data-scroll-section>
+        <div class="main-container" data-scroll data-scroll-speed="1" lerp="1">
+          <h2 class="big-text">I am a graduate from Macquarie University with a Bachelor of Global Business, as well as
             a Certificate in UX/UI Design. I also have a wealth of experience in financial services and the retail
             sector. My background not only alows me to critically analyse your user problems, but also come up with
             unique, yet effective solutions. Thus, making your product not only look better, but also more functional
             and accessible.</h2>
         </div>
-        <div class="main-container">
-          <h2 class="big-text" data-scroll data-scroll-speed="2"lerp="2">I am a natural problem solver who is able to see problems through multiple perspectives.
+        <div class="main-container" data-scroll data-scroll-speed="2" lerp="2">
+          <h2 class="big-text">I am a natural problem solver who is able to see problems through multiple perspectives.
             My background will also allow me to meet your needs (as my client), cultural or otherwise.</h2>
         </div>
-        <div class="main-container">
-          <h2 class="big-text" data-scroll data-scroll-speed="3" lerp="3">I'm focused on developing and testing designs that solve user’s needs, through elegant
+        <div class="main-container" data-scroll data-scroll-speed="3" lerp="3">
+          <h2 class="big-text">I'm focused on developing and testing designs that solve user’s needs, through elegant
             interfaces. My creative style is minimal, yet elegant and impactful. I am also very passionate about
             creative thinking and design.</h2>
         </div>
       </div>
     </div>
 
-    <div class="row" data-scroll-section>
-      <div class="section no-padding wf-section">
-        <div class="main-container"><img src="images/desk setup.jpeg" loading="lazy"
+    <div class="row" data-scroll-container>
+      <div class="section no-padding wf-section" data-scroll-section>
+        <div class="main-container"><img data-scroll data-scroll-sticky src="images/desk setup.jpeg" loading="lazy"
             sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, 99vw" alt="desk setup"
             class="image tilt-right" data-scroll data-scroll data-scroll-speed="1" lerp="2">
         </div>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" data-scroll-container>
       <div class="section wf-section" data-scroll-section>
         <div class="main-container">
           <div class="big-text less-bottom-padding">
@@ -134,7 +133,7 @@
       </div>
     </div>
 
-    <div class="row footer">
+    <div class="row footer" data-scroll-container>
       <div class="main-container" data-scroll-section>
         <div class="footer-spacing" data-scroll>
           <div class="col-md-2">
@@ -162,6 +161,7 @@
     </div>
   </div>
 
+<script src="JS/index.js" defer></script>
 <script src="JS/locomotive-scroll.js"></script>
 </body>
 
