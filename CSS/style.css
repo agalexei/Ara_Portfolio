@@ -79,6 +79,7 @@ html {
     color: #000;
     font-size: 14px;
     line-height: 140%;
+    padding: 10rem;
   }
   
   .main-container {
@@ -407,6 +408,10 @@ html {
 
     h2 {
         font-size: 24px !important;
+    }
+
+    .body {
+      padding: 0 !important;
     }
 
     .section {
