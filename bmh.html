@@ -17,379 +17,789 @@
   <link rel="stylesheet" href="CSS/animate.compat.css">
   <link rel="stylesheet" href="CSS/animate.css">
   <link rel="icon" href="images/icon.png">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display&family=Poppins:ital,wght@0,400;0,500;0,700;1,300;1,400&family=PT+Sans+Narrow&family=Roboto&display=swap"
+      rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target="#navbarSupportedContent">
+<body class="body bg-white" id="top-of-page" data-spy="scroll" data-target="#navbar-case-study">
 
-  <header>
-    <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="images/icon.svg" alt="logo" style="max-height:50px"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- TOP NAV -->
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto">
+  <nav id="navbar-case-study navbarSupportedContent" class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+<div class="container-fluid d-flex mx-auto nav-container">
+      
+          <a class="navbar-brand" href="index.html">Ara GLM<span class="line">.</span></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#part1">Intro</a>
+              <a class="nav-link active text-center" href="#intro">Introduction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#part2">User Persona</a>
+              <a class="nav-link text-center" href="#research">User Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#part3">Style Guide</a>
+              <a class="nav-link text-center" href="#persona">User Persona</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#part4">Testing</a>
+              <a class="nav-link text-center" href="#wireframes">Wireframes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#part5">Prototype</a>
+              <a class="nav-link text-center" href="#style">Style Guide</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#part6">Next Steps</a>
+              <a class="nav-link text-center" href="#prototype">Prototype</a>
           </li>
-        </ul>
-        <a class="btn btn-light my-2 my-sm-0" href="index.html">Back</a>
+          <li class="nav-item">
+              <a class="nav-link text-center" href="#conclusion">Next Steps</a>
+          </li>
+          <li class="nav-item mx-auto">
+              <a class="btn btn-light button home-btn" href="index.html">HOME</a>
+          </li>
+      </ul>
       </div>
-    </nav>
+      </div>
+  </nav>
 
-    <!--header-->
-    <div class="mid">
-      <img class="embed-responsive" src="images/casestudy4/background@2x.png" alt="background">
-      <div class="hero text-center">
-        <h2 class="text-light display-4 font-weight-bold container text-center mx-auto">Bring Me Home Web Portal Case
-          Study</h2>
-        <p class="text-light mx-auto bg-black text-center lead">Bring Me Home (BMH) is an app designed to reduce food
-          wastage and support local businesses.</p>
+<main data-spy="scroll" data-target="#navbar-case-study" data-offset="0">
+  <div class="container-fluid hero bg-white">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 mx-auto hero-content d-block">
+                  <span>
+                      <h1 class="display-4">Bring Me Home</h1>
+                  </span>
+                  <p class="lead">Bring Me Home (BMH) is an app designed to reduce food wastage and support local businesses.</p>
+              </div>
+              <div class="col-md-4 mx-auto hero-content d-flex justify-content-center">
+                  <div class="skills" data-scroll data-scroll-offset="1, 2">
+                      <h4 class="text-left" data-scroll data-scroll-speed="2">Deliverables</h4>
+                      <p class="deliverablesstyle first" data-scroll-speed="4">
+                          Built landing page with HTML/CSS
+                      </p>
+                      <p class="deliverablesstyle" data-scroll-speed="4">COMPETITIVE&nbsp;ANALYSIS</p>
+                      <p class="deliverablesstyle" data-scroll-speed="4">USER&nbsp;TESTING</p>
+                      <p class="deliverablesstyle" data-scroll-speed="4">INFORMATION&nbsp;ARCHITECTURE</p>
+                      <p class="deliverablesstyle" data-scroll-speed="4">UI DESIGN</p>
+                      <p class="deliverablesstyle" data-scroll-speed="4">PROTOYPE</p>
+                      <p class="deliverablesstyle" data-scroll-speed="4" data-scroll-offset="50">
+                          DESIGN&nbsp;SYSTEM
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+      <div class="text-md-center mx-auto d-block mb-4 justify-content-center"></div>
+      <div class="row">
+          <div class="col-xs-6 col-md-3 p-4 text-center">
+              <dt class="info">Client</dt>
+              <dd>Startup</dd>
+          </div>
+          <div class="col-xs-6 col-md-3 p-4 text-center">
+              <dt class="info">Year</dt>
+              <dd>2021</dd>
+          </div>
+          <div class="col-xs-6 col-md-3 p-4 text-center">
+              <dt class="info">Service</dt>
+              <dd>Website Audit and Rebuild</dd>
+          </div>
+          <div class="col-xs-6 col-md-3 p-4 text-center">
+              <dt class="info">Website</dt>
+              <dd><a href="https://agalexei.github.io/group-project-3/index.html" target="_blank">Bring Me Home - Redesign</a></dd>
+          </div>
+      </div>
+  </div>
+  
+
+  <div class="container-fluid bg-light">
+      <div class="container section" id="intro">
+          <div class="row intro" data-scroll-container>
+              <div class="col-12 d-flex" data-scroll-section>
+                  <h2 class="line">-</h2>
+                  <h2 idata-scroll border-scroll-speed="1">Introduction</h2>
+              </div>
+              <div>
+                  <p class="text-normal" border-scroll border-scroll-speed="3">
+                      <span class="line">1 of every 5 meals is thrown out.</span> Yet, 1 in every 6 Australians experiences food insecurity. So Bring Me Home making this food more accessible and affordable to more people. On average, food businesses bin over 100 kgs of food every week, over half of which could have been prevented. Food waste from Australian restaurants and cafes produces the equivalent of almost half a million tonnes of CO2 every year.
+                  </p>
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+  <div class="container-fluid section bg-light">
+    <div class="container">
+      <div class="row" data-section>
+          <div class="col-md-6 mx-auto" data-scroll border-scroll-speed="2">
+              <h4 class="mx-auto text-center" data-scroll>The Problem</h4>
+              <p class="text-normal" border-scroll border-scroll-speed="3">
+                We have observed that our product isn’t meeting these goals, which is causing users to use competitor apps that do not help reduce food waste or support local businesses.
+              </p>
+              <p class="text-normal" border-scroll border-scroll-speed="3">
+                How might we improve the user’s experience so that our customers are ordering food not only via the app but also through the web portal?
+              </p>
+          </div>
+          <div class="col-sm-6" data-scroll border-scroll-speed="4">
+              <picture>
+                  <source media="(min-width: 768px)"
+                      srcset="/images/casestudy4/mockup6.png">
+                  <img src="/images/casestudy4/mockup6.png"
+                      alt="case study image" class="" border-scroll border-scroll-speed="2">
+              </picture>
+          </div>
+
+          <div class="col-sm-6" data-scroll border-scroll-speed="4">
+              <picture>
+                  <source media="(min-width: 768px)"
+                      srcset="/images/casestudy4/mockup11.png">
+                  <img src="/images/casestudy4/mockup11.png"
+                      alt="case study image" class="" border-scroll border-scroll-speed="2">
+              </picture>
+          </div>
+
+          <div class="col-md-6 mx-auto" data-scroll border-scroll-speed="2">
+              <h4 class="mx-auto text-center" data-scroll>The Solution</h4>
+              <p class="text-normal" border-scroll border-scroll-speed="3">
+                We believe the implementation of a web portal for the Bring Me Home App will increase the number of users, while helping the local economy and reduce food wastage.
+              </p>
+          </div>
       </div>
     </div>
-  </header>
 
-  <!--about-->
-  <main>
-
-    <section class="about py-5">
-      <div class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0s">
-        <dl class="text-md-center mb-5 justify-content-center">
-          <div class="container mx-auto">
-            <div class="row">
-              <div class="col-md-2">
-                <dt class="font-weight-light text-secondary">Client</dt>
-                <dd>Start Up</dd>
+<div class="container">
+      <div class="row" data-scroll-container>
+          <div class="col-12" data-scroll-section>
+              <div data-scroll-container>
+                  <!-- BIG IMAGE HERE-->
+                  <picture>
+                      <source media="(min-width: 768px)" srcset="/images/casestudy4/mockup6.png">
+                      <img src="/images/casestudy4/mockup6.png" alt="case study image"
+                          class="big-img d-block mx-auto">
+                  </picture>
               </div>
-              <div class="col-md-2">
-                <dt class="font-weight-light text-secondary">Year</dt>
-                <dd>2021</dd>
-              </div>
-              <div class="col-md-2">
-                <dt class="font-weight-light text-secondary">Service</dt>
-                <dd>Website Design</dd>
-              </div>
-              <div class="col-md-2">
-                <dt class="font-weight-light text-secondary">Website</dt>
-                <dd>bringmehome.com.au</dd>
-              </div>
-              <div class="col-md-2">
-                <dt class="font-weight-light text-secondary">Prototype</dt>
-                <dd><a href="https://agalexei.github.io/group-project-3/index.html" target="_blank">Github</a></dd>
-              </div>
-            </div>
           </div>
-        </dl>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <section id="part1" class="about py-5">
-      <div class="row align-items-center container my-5 mx-auto">
-        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <h6>Part 1</h6>
-          <h2>The Problem</h2>
-          <p>We have observed that our product isn’t meeting these goals, which is causing users to use competitor apps
-            that do not help reduce food waste or support local businesses.</p>
-          <p>How might we improve the user’s experience so that our customers are ordering food not only via the app but
-            also through the web portal?</p>
-        </div>
-        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <img class="img-fluid" src="images/casestudy4/mockup6.png" alt="mockup">
-        </div>
-      </div>
-    </section>
 
-    <section class="about py-5">
-      <div class="row align-items-center container my-5 mx-auto">
-        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <img class="img-fluid" src="images/casestudy4/mockup11.png" alt="mockup">
-        </div>
-        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <h2>The Solution</h2>
-          <p>We believe the implementation of a web portal for the Bring Me Home App will increase the number of users,
-            while helping the local economy and reduce food wastage.</p>
-        </div>
-      </div>
-    </section>
+  <div class="container-fluid darkened">
+      <div class="container section">
+          <div class="container-fluid mx-auto">
+            <!--
+              <div class="col-12" data-scroll-section>
+                  <div data-scroll>
+                      <div class="col-12 d-flex" data-scroll-section>
+                          <h2 class="line">-</h2>
+                          <h2 data-scroll data-scroll data-scroll-speed="1" class="light-text">
+                              Stakeholder Interview</h2>
+                      </div>
+                      <div class="col-12">
+                          <h4 data-scroll data-scroll-speed="2" class="light-text">By intervirwing the
+                              stakeholder, we identified key areas of improvement on the site:</h4>
+                          <div class="spaces">
+                              <span class="line">1.</span>
+                              <span class="light-text">Too many different pages and too much text
+                              </span>
+                          </div>
+                          <div class="spaces">
+                              <span class="line">2.</span>
+                              <span class="light-text">Needs to be more minimalistic and visually appealing
+                              </span>
+                          </div>
 
-    <section id="part2" class="black-box py-5 bg-black">
-      <div class="row align-items-center container my-5 mx-auto">
-        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <img class="img-fluid" src="images/casestudy4/Abstract.png" alt="persona">
-        </div>
-        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <h6>Part 2</h6>
-          <h2>User Persona</h2>
-          <h4>Name</h4>
-          <p>George Hamilton</p>
-          <br>
-          <h4>Age</h4>
-          <p>28</p>
-          <br>
-          <h4>Location</h4>
-          <p>Melbourne</p>
-          <br>
-          <h4>Occupation</h4>
-          <p>Junior Graphic Designer</p>
-          <br>
-          <h4>Goals</h4>
-          <ul>
-            <li>Get the best deals
-            </li>
-            <li>Eat Good quality food
-            </li>
-            <li>Reduce his food wastage
-            </li>
-          </ul>
-          <br>
-          <h4>Pain Points</h4>
-          <ul>
-            <li>Spending time on cooking
-            </li>
-            <li>All food delivery apps are the same
-            </li>
-          </ul>
-          <br>
-        </div>
-      </div>
-    </section>
+                          <div class="spaces">
+                              <span class="line">3.</span>
+                              <span class="light-text">Needs an online booking systems for volunteering
+                                  opportunities
+                              </span>
+                          </div>
+                          <div class="spaces">
+                              <span class="line">4.</span>
+                              <span class="light-text">
+                                  A bigger emphasis on TFL being a South Australian not-for-profit organisation
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>-->
 
-    <!--Cards-->
-    <section class="photos py-5">
-      <div class="col-lg-12 mx-auto align-items-center my-5">
-        <div class="heading text-center pt-5">
-          <h2 class="font-weight-bold pb-5 text-light">User Journey</h2>
-        </div>
-        <div class="row mx-auto justify-content-center align-items-center text-center container">
-          <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
-            <img class="img-fluid w-75" src="images/casestudy4/mockup6.png" alt="subscribe">
-            <h5 class="font-weight-bold pt-4">Discovery</h5>
-            <q>George discovers he can use the Bring Me Home website to order food.</q>
+
+              <div class="row research section" id="research" data-scroll-container>
+                  <div class="col-12 d-flex" data-scroll-section>
+                      <h2 class="line">-</h2>
+                      <h2 id="research" data-scroll data-scroll data-scroll-speed="1" class="light-text">User
+                          Research</h2>
+                  </div>
+                  <div class="col-12">
+                      <h4 data-scroll data-scroll-speed="2" class="light-text">Key insights from research was:
+                      </h4>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="light-box">
+                          <span class="line text-normal">93%</span>
+                          <span> of participants use apps or websites to order food; such as Uber Eats
+                          </span>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="light-box">
+                          <span class="line text-normal">53%</span>
+                          <span> of participants were looking for the greatest value on local deals near them
+                          </span>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="light-box">
+                          <span class="line text-normal">44%</span>
+                          <span> of participants want to save food to make a positive environmental impact
+                          </span>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="light-box">
+                          <span class="line text-normal">97%</span>
+                          <span>
+                            of participants are concerned about food wastage and their carbon footprint
+                          </span>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-12 d-flex" data-scroll-section>
+                  <h2 class="line">-</h2>
+                  <h2 id="research" data-scroll data-scroll data-scroll-speed="1" class="light-text">Interviews
+                      and Testing</h2>
+              </div>
+              <div class="col-12">
+                  <h4 data-scroll data-scroll-speed="2" class="light-text">Key insights from interviews and
+                      testing were:
+                  </h4>
+              </div>
+              <div class="spaces">
+                  <span class="line">1.</span>
+                  <span class="light-text">Users had issues understanding why they couldn't order at particular times
+                  </span>
+              </div>
+              <div class="spaces">
+                  <span class="line">2.</span>
+                  <span class="light-text">Bring Me Home's impact was easily missed due to bad information architecture
+                  </span>
+              </div>
+
+              <div class="spaces">
+                  <span class="line">3.</span>
+                  <span class="light-text">Users preferred using the map feature to see deals near by
+                  </span>
+              </div>
+              <div class="spaces">
+                  <span class="line">4.</span>
+                  <span class="light-text">
+                      Users also wanted the map feature to be more prominant on the page
+                  </span>
+              </div>
+              <div class="spaces">
+                  <span class="line">5.</span>
+                  <span class="light-text">
+                      Some users were uneasy about giving personal information for pick-up orders
+                  </span>
+              </div>
           </div>
-
-          <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
-            <img class="img-fluid w-75" src="images/casestudy4/mockup7.png" alt="register">
-            <h5 class="font-weight-bold pt-4">Search</h5>
-            <q>George searches his address and checks out deals that come up nearby.</q>
+          <div class="col-sm-6" data-scroll-section>
+              <div data-scroll></div>
           </div>
-
-          <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
-            <img class="img-fluid w-75" src="images/casestudy4/mockup13.png" alt="Reports">
-            <h5 class="font-weight-bold pt-4">Collection</h5>
-            <q>On his way home from work, George goes and collects his order from a local vendor.</q>
+          <div class="col-sm-6" data-scroll-section>
+              <div data-scroll></div>
           </div>
-
-        </div>
+          <div class="col-sm-6" data-scroll-section>
+              <div data-scroll></div>
+          </div>
+          <div class="col-sm-6" data-scroll-section>
+              <div data-scroll></div>
+          </div>
       </div>
-    </section>
+      <div class="container section">
+          <div class="row" data-scroll-container>
+              <div class="col-12 d-flex" data-scroll-section>
+                  <h2 class="line">-</h2>
+                  <h2 id="research" data-scroll data-scroll data-scroll-speed="1" class="light-text">Defining a
+                      problem statement</h2>
+              </div>
+              <div class="col-12" data scroll>
+                  <q class="statement">
+                      "Bring Me Home  was designed to reduce food wastage and support local businesses. We have observed that our product or service isn’t meeting these goals, which is causing users to use competitor apps that do not help reduce food waste or support local businesses. How might we improve the user’s experience so that our customers are ordering food not only via the app but also through the web portal?"</q>
+              </div>
+          </div>
+      </div>
+  </div>
 
-    <section id="part3" class="about py-5">
-      <div class="row align-items-center container my-5 mx-auto">
-        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <h6>Part 3</h6>
-          <h2>Style Guide</h2>
+
+  <div class="container-fluid bg-light">
+      <div class="container">
+          <div class="row persona" id="persona" data-scroll-container>
+              <div class="col-sm-6 section" data-scroll-section>
+                  <div class="col-12 d-flex" data-scroll-section>
+                      <h2 class="line">-</h2>
+                      <h2 id="intro" data-scroll border-scroll-speed="1">User Persona</h2>
+                  </div>
+                  <div class="row" data-scroll-section>
+                      <div class="col-6" data-scroll data-scroll-speed="1">
+                          <h4>Name</h4>
+                          <p>George Hamilton</p>
+                          <br>
+                      </div>
+                      <div class="col-6" data-scroll data-scroll-speed="10">
+                          <h4>Age</h4>
+                          <p>28</p>
+                          <br>
+                      </div>
+                  </div>
+                  <div class="row" data-scroll-section>
+                      <div class="col-6" data-scroll data-scroll-speed="1">
+                          <h4>Location</h4>
+                          <p>Melbourne</p>
+                          <br>
+                      </div>
+                      <div class="col-6" data-scroll data-scroll-speed="10">
+                          <h4>Occupation</h4>
+                          <p>Junior Graphic Designer</p>
+                          <br>
+                      </div>
+                  </div>
+                  <div class="row" data-scroll-section>
+                      <div class="col-6" data-scroll data-scroll-speed="1">
+                          <h4>Goals</h4>
+                          <ul>
+                              <div class="p-1">
+                                  <span class="line">1.</span>
+                                  <span>
+                                    Get the best deals
+                                  </span>
+                              </div>
+                              <div class="p-1">
+                                  <span class="line">2.</span>
+                                  <span>
+                                    Eat Good quality food
+                                  </span>
+                              </div>
+                              <div class="p-1">
+                                <span class="line">3.</span>
+                                <span>
+                                  Reduce his food wastage
+                                </span>
+                            </div>
+                      </div>
+                      <div class="col-6" data-scroll data-scroll-speed="10">
+                          <h4>Pain Points</h4>
+                          <div class="p-1">
+                              <span class="line">1.</span>
+                              <span>
+                                Spending time on cooking
+                              </span>
+                          </div>
+                          <div class="p-1">
+                              <span class="line">2.</span>
+                              <span>
+                                All food delivery apps are the same
+                              </span>
+                          </div>
+                          <div class="p-1">
+                              <span class="line">3.</span>
+                              <span>
+                                  Workshop confirmations
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6" data-scroll-section>
+                  <picture>
+                      <source media="(min-width: 768px)" srcset="/images/casestudy4/Abstract.png">
+                      <img src="/images/casestudy4/Abstract.png" alt="case study image" class="case-study-img"
+                          data-scroll data-scroll-speed="40">
+                  </picture>
+              </div>
+              <div class="col-md-6" data-scroll-section>
+
+              </div>
+          </div>
+          <div class="container section">
+              <div class="row  wireframes" data-scroll-container id="direction">
+                  <div class="col-12 d-flex" data-scroll-section>
+                      <h2 class="line">-</h2>
+                      <h2 id="intro" data-scroll border-scroll-speed="1">User Journey</h2>
+                  </div>
+
+                  <div class="row" data-scroll-section>
+                      <div class="col-12" data-scroll>
+                          <h4 class=text-center>User Flow</h4>
+                          <picture>
+                              <source media="(min-width: 768px)" srcset="images/casestudy4/flow.png">
+                              <img src="images/casestudy4/flow.png" alt="case study image"
+                                  class="big-img c-direction-block_item_inner mx-auto d-block is-inview"
+                                  data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8"
+                                  data-scroll-target="#direction">
+                          </picture>
+                      </div>
+                  </div>
+
+                  <div class="container section" id="wireframes">
+                      <div class="row" data-scroll-section>
+                        <div class="col-12 d-flex" data-scroll-section>
+                          <h2 class="line">-</h2>
+                          <h2 id="intro" data-scroll border-scroll-speed="1">Wireframes</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-12" data-scroll data-scroll-speed="20">
+                              <h4>Landing Page</h4>
+                          </div>
+                            <div class="col-12">
+                              <p class="text-normal">The landing page inspired by competitors such as Uber Eats.</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-normal">We wanted to showcase the ‘Discover’ element, highlighting local deals near the user.</p>
+                            </div>
+                            <div class="col-12">
+                                  <p class="text-normal">We re-built top-nav to be more suited to a food ordering portal, as the existing site is more like a corporate site and blog.</p>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12">
+                                      <picture>
+                                          <source media="(min-width: 768px)"
+                                              srcset="/images/casestudy4/wireframe1.png">
+                                          <img src="/images/casestudy4/wireframe1.png"
+                                              alt="case study image" class="case-study-img prototype-img" data-scroll
+                                              data-scroll-speed="2">
+                                      </picture>
+                                  </div>
+                          </div>
+                          </div>
+
+                          <div class="col-md-6">
+                              <div class="col-12" data-scroll data-scroll-speed="20">
+                                <h4>Map Feature</h4>
+                            </div>
+                              <div class="col-12">
+                                <p class="text-normal">We borrowed elements from existing app, updating on areas of improvement from our first usability test.</p>
+                              </div>
+                              <div class="col-12">
+                                  <p class="text-normal">The map helps users easily identify locations of nearby deals.</p>
+                              </div>
+                              <div class="col-12">
+                                    <p class="text-normal">We also wanted to make the payment process at checkout as easy as possible.</p>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-12" data-scroll>
+                                        <picture>
+                                            <source media="(min-width: 768px)"
+                                                srcset="/images/casestudy4/wireframe2.png">
+                                            <img src="/images/casestudy4/wireframe2.png"
+                                                alt="case study image" class="case-study-img prototype-img" data-scroll
+                                                data-scroll-speed="2">
+                                        </picture>
+                                    </div>
+                            </div>
+                            </div>
+                      </div>
+
+                          <div class="col-md-6" data-scroll></div>
+                      </div>
+                  </div>
+                  <div class="col-xs-12" data-scroll-section></div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid darkened">
+      <div class="container section" id="style">
+          <div class="row style-guide" data-scroll-container>
+              <div class="col-12 d-flex" data-scroll-section>
+                  <h2 class="line">-</h2>
+                  <h2 id="intro" class="light-text" data-scroll border-scroll-speed="1">Style Guide</h2>
+              </div>
+              <div class="col-md-6" data-scroll-section>
+                  <div class="col-12">
+                      <h4 data-scroll data-scroll-speed="2" class="light-text">Colours
+                      </h4>
+                  </div>
+                  <div class="row" data-scroll data-scroll-speed="4">
+                      <div class="col-sm-6 text-white ml-4 text-uppercase">
+                          <div class="colour1">
+                              #FA9508
+                          </div>
+                    </div>
+                      <div class="col-sm-6 text-white ml-4 text-uppercase">
+                          <div class="colour2">
+                              #12332D
+                          </div>
+                      </div>
+                      <div class="col-sm-6 text-white ml-4 text-uppercase">
+                          <div class="colour3">
+                              #CC771C
+                          </div>
+                      </div>
+                      <div class="col-sm-6 text-white ml-4 text-uppercase">
+                          <div class="colour4">
+                              #010705
+                          </div>
+                      </div>
+                      <div class="col-sm-6 text-white ml-4 text-uppercase">
+                          <div class="colour5">
+                              #FFCD86
+                          </div>
+                      </div>
+                      <div class="col-sm-6 text-black ml-4 text-uppercase">
+                        <div class="colour6">
+                            #FFFEFD
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-6" data-scroll-section>
+                  <!-- typography-->
+                  <div class="col-12">
+                      <h4 data-scroll data-scroll-speed="2" class="light-text">Typography
+                      </h4>
+                  </div>
+                  <div class="row" data-scroll data-scroll-speed="4">
+                      <div style="overflow-x:auto;">
+                          <table class="table table-responsive col-12">
+                              <thead>
+                                  <tr>
+                                      <th class="text-white">Type</th>
+                                      <th class="text-white">Example</th>
+                                      <th class="text-white">Font</th>
+                                      <th class="text-white">Font Size</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <div class="h1">
+                                      <tr>
+                                          <td class="text-white">Heading 1</td>
+                                          <td>
+                                              <p class="h1">Heading 1</p>
+                                          </td>
+                                          <td class="text-white">PT Sans Narrow</td>
+                                          <td class="text-white">72px</td>
+                                      </tr>
+                                  </div>
+                                  <div class="h2">
+                                      <tr>
+                                          <td class="text-white">Heading 2</td>
+                                          <td>
+                                              <p class="h2">Heading 2</p>
+                                          </td>
+                                          <td class="text-white">PT Sans Narrow</td>
+                                          <td class="text-white">32px</td>
+                                      </tr>
+                                  </div>
+                                  <div class="h3">
+                                      <tr>
+                                          <td class="text-white">Secondary 1</td>
+                                          <td>
+                                              <p class="h3">Subheading</p>
+                                          </td>
+                                          <td class="text-white">Roboto</td>
+                                          <td class="text-white">24px</td>
+                                      </tr>
+                                  </div>
+                                  <div class="h4">
+                                      <td>
+                                          <p class="h4">Paragraph</p>
+                                      </td>
+                                      <td class="text-white">Paragraph</td>
+                                      <td class="text-white">Roboto</td>
+                                      <td class="text-white">16px</td>
+                                      </tr>
+                                  </div>
+                                  <tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+  <div class="container">
+      <div class="row section p-4" id="prototype" data-scroll-container>
+          <div class="col-12 d-flex p-4" data-scroll-section>
+              <h2 class="line">-</h2>
+              <h2 id="intro" data-scroll border-scroll-speed="1">Desktop Prototype</h2>
+          </div>
+          <span class="mx-auto text-center text-left">
+              <a href="https://agalexei.github.io/group-project-3/index.html" target=”_blank”
+                  class="prototype">link to prototype</a>
+          </span>
           <div class="row">
-            <h3 class="col-md-8 mb-4 ml-4">Colours</h3>
+              <div class="col-sm-6">
+                  <picture>
+                      <source media="(min-width: 768px)" srcset="/images/casestudy4/mockup6.png">
+                      <img src="/images/casestudy4/mockup6.png" alt="case study image"
+                          class="case-study-img d-block mx-auto prototype-img c-direction-block_item_inner is-inview"
+                          data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8"
+                          data-scroll-target="#direction">
+                  </picture>
+              </div>
+              <div class="col-sm-6 col-md-6" data-scroll>
+                  <picture>
+                      <source media="(min-width: 768px)" srcset="/images/casestudy4/mockup13.png">
+                      <img src="/images/casestudy4/mockup13.png" alt="case study image"
+                          class="case-study-img d-block mx-auto prototype-img c-direction-block_item_inner is-inview"
+                          data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8"
+                          data-scroll-target="#direction">
+                  </picture>
+              </div>
+              <div class="col-sm-6 col-md-6" data-scroll>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="/images/casestudy4/mockup15.png">
+                    <img src="/images/casestudy4/mockup15.png" alt="case study image"
+                        class="case-study-img mx-auto d-block prototype-img c-direction-block_item_inner is-inview"
+                        data-scroll data-scroll-direction="horizontal" data-scroll-speed="8"
+                        data-scroll-target="#direction">
+                </picture>
+            </div>
+              <div class="col-sm-6 col-md-6" data-scroll>
+                  <picture>
+                      <source media="(min-width: 768px)" srcset="/images/casestudy4/mockup7.png">
+                      <img src="/images/casestudy4/mockup7.png" alt="case study image"
+                          class="case-study-img d-block mx-auto prototype-img c-direction-block_item_inner is-inview"
+                          data-scroll data-scroll-direction="horizontal" data-scroll-speed="8"
+                          data-scroll-target="#direction">
+                  </picture>
+              </div>
           </div>
-          <div class="row mb-4">
-            <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
-              <div class="colour1">
-                #FA9508
-              </div>
-            </div>
-            <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
-              <div class="colour2">
-                #12332D
-              </div>
-            </div>
-            <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
-              <div class="colour3">
-                #CC771C
-              </div>
-            </div>
-            <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
-              <div class="colour4">
-                #010705
-              </div>
-            </div>
-            <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
-              <div class="colour5">
-                #FFCD86
-              </div>
-            </div>
-            <div class="col-md-3 pt-2 pb-5 px-3 text-black ml-4 text-uppercase">
-              <div class="colour6">
-                #FFFEFD
-              </div>
-            </div>
-          </div>
-          </container>
-        </div>
-
-        <container class="container pb-5 camera">
-          <div class="row">
-            <h3 class="col-md-6 mb-4 ml-8">Typography</h3>
-          </div>
-          <div class="row">
-            <table class="table table-responsive-md ml-4 col-lg-12">
-              <thead>
-                <tr>
-                  <th>Type</th>
-                  <th>Example</th>
-                  <th>Font</th>
-                  <th>Font Size</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Heading 1</td>
-                  <td>
-                    <p class="h1 pt-sans">PT Sans Narrow</p>
-                  </td>
-                  <td>Bold</td>
-                  <td>72px</td>
-                </tr>
-                <tr>
-                  <td>Heading 2</td>
-                  <td>
-                    <p class="h2 pt-sans">PT Sans Narrow</p>
-                  </td>
-                  <td>Bold</td>
-                  <td>48px</td>
-                </tr>
-                <tr>
-                  <td>Secondary 1</td>
-                  <td>
-                    <p class="h3 roboto">Roboto</p>
-                  </td>
-                  <td>Regular</td>
-                  <td>24px</td>
-                </tr>
-                <tr>
-                  <td>Paragraph</td>
-                  <td>
-                    <p class="h4 roboto">Roboto </p>
-                  </td>
-                  <td>Regular</td>
-                  <td>16px</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </container>
       </div>
-    </section>
-
-    <section>
-      <section id="part4" class="black-box py-5">
-        <div class="row align-items-center container my-5 mx-auto">
-          <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-            <img class="img-fluid pb-5" src="images/casestudy4/AB1.gif" alt="test">
-            <img class="img-fluid" src="images/casestudy4/AB2.gif" alt="test">
+      <!--
+      <div class="row section p-4" data-scroll-container>
+          <div class="col-12 d-flex p-4" data-scroll-section>
+              <h2 class="line">-</h2>
+              <h2 id="intro" data-scroll border-scroll-speed="1">Mobile Prototype</h2>
           </div>
-          <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-            <h6>Part 4</h6>
-            <h2>AB and Usability Testing</h2>
-            <h4>AB Testing</h4>
-            <p>We conducted AB testing as well as some usability testing. AB testing helped us identify elements users
-              preferred.</p>
-            <p>We found that users preferred a top nav system over a burger menu for all view ports as well as what
-              button style users preferre</p>
-            <br>
-            <h4>Usability testing</h4>
-            <p>
-              By conducting user testing we were able to iterate our font type as well as the positioning of cards to
-              the left-hand side of the map.
-            </p>
+          <span class="mx-auto text-center text-left">
+              <a href="https://xd.adobe.com/view/29483c91-7bc3-4b47-a09e-d3735da2aa01-7c1b/" target=”_blank”
+                  class="prototype">link to prototype</a>
+          </span>
+      </div>
+      <div class="row">
+          <div class="col-sm-6 col-md-6" data-scroll>
+              <picture>
+                  <source media="(min-width: 768px)" srcset="images/casestudy5/mobile1@2x.png">
+                  <img src="images/casestudy5/mobile1@2x.png" alt="case study image"
+                      class="case-study-img mx-auto d-block prototype-img">
+              </picture>
           </div>
-        </div>
-      </section>
-    </section>
+          <div class="col-sm-6 col-md-6" data-scroll>
+              <picture>
+                  <source media="(min-width: 768px)" srcset="images/casestudy5/mobile2@2x.png">
+                  <img src="images/casestudy5/mobile2@2x.png" alt="case study image"
+                      class="case-study-img mx-auto d-block prototype-img">
+              </picture>
+          </div>
+      </div> -->
+  </div>
 
-    <section id="part5" class="tutorials py-5">
-      <div class="row align-items-center container my-5 mx-auto">
-        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <h6>Part 5</h6>
-          <h2>Low-Fi Prototype</h2>
-          <h3>Landing Page</h3>
-          <p>The landing page inspired by competitors such as Uber Eats.</p>
-          <p>We wanted to showcase the ‘Discover’ element, highlighting local deals near the user.</p>
-          <p>We re-built top-nav to be more suited to a food ordering portal, as the existing site is more like a
-            corporate site and blog.</p>
-          <img class="img-fluid" src="images/casestudy4/wireframe1.png" alt="wireframe">
-        </div>
-        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <h3>Map Feature</h3>
-          <p>We borrowed elements from existing app, updating on areas of improvement from our first usability test.</p>
-          <p>The map helps users easily identify locations of nearby deals.</p>
-          <p>We also wanted to make the payment process at checkout as easy as possible.</p>
-          <img class="img-fluid" src="images/casestudy4/wireframe2.png" alt="wireframe">
+
+  <div class="container">
+      <div class="row section" data-scroll-container>
+          <div class="col-12" data-scroll-section>
+              <div class="row" data-scroll>
+                  <!-- Testing -->
+                  <div class="col-12 d-flex" data-scroll-section>
+                      <h2 class="line">-</h2>
+                      <h2 id="intro" data-scroll border-scroll-speed="1">Iterations</h2>
+                  </div>
+                  <div class="col-md-6">
+                  <h4 data-scroll data-scroll-speed="2" class="">AB Testing
+                  </h4>
+                  <p class="text-normal">We conducted AB testing as well as some usability testing. AB testing helped us identify elements users preferred.</p>
+                  <p class="text-normal">We found that users preferred a top nav system over a burger menu for all view ports as well as what button style users preferred.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <h4 data-scroll data-scroll-speed="2" class="">Usability testing
+                  </h4>
+                  <p class="text-normal">By conducting user testing we were able to iterate our font type as well as the positioning of cards to the left-hand side of the map.</p>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+          <div class="col-md-6">
+              <picture>
+                  <source media="(min-width: 768px)" srcset="/images/casestudy4/AB1.gif">
+                  <img src="/images/casestudy4/AB1.gif" alt="case study image" class="case-study-img">
+              </picture>
+          </div>
+
+          <div class="col-md-6">
+              <picture>
+                  <source media="(min-width: 768px)" srcset="/images/casestudy4/AB2.gif">
+                  <img src="/images/casestudy4/AB2.gif" alt="case study image" class="case-study-img">
+              </picture>
+          </div>
         </div>
       </div>
-    </section>
+  </div>
 
-    <section class="black-box py-5">
-      <div class="row align-items-center container my-5 mx-auto">
-        <div class="img col-lg-12 col-md-12 col-12 w-50 pt-5 pb-5 justify-content-center">
-          <img class="img-fluid" src="images/casestudy4/ezgif-2-1f515cc6de1f.gif" alt="screenshot">
-        </div>
-    </section>
+  <div class="container">
+      <div class="row section conclusion" id="conclusion" data-scroll-container>
+          <div class="col-md-6" data-scroll-section>
+              <div class="col-12 d-flex" data-scroll-section>
+                  <h2 class="line">-</h2>
+                  <h2 id="intro" data-scroll border-scroll-speed="1">Next Steps</h2>
+              </div>
+              <p class="text-normal" data-scroll>We'd like to flesh out the map functionality on the site.</p>
+              <p class="text-normal" data-scroll>Increase size of map and reduce white space above and around the map.</p>
+              <p class="text-normal" data-scroll>Create a fully functional responsive website for all viewports.</p>
+              <p class="text-normal" data-scroll>Propose to the business an expansion on partnerships with produce stores as wel as existing cafes and restaurants.</p>
+              <p class="text-normal" data-scroll>Iterate the charity donations so users can directly donate to charities on the BMH site.</p>
+          </div>
+          <div class="col-sm-6" data-scroll-section>
+              <picture>
+                  <source media="(min-width: 768px)"
+                      srcset="/images/casestudy4/ezgif-2-1f515cc6de1f.gif">
+                  <img src="/images/casestudy4/ezgif-2-1f515cc6de1f.gif"
+                      alt="case study image" class="case-study-img" data-scroll data-scroll-speed="2">
+              </picture>
+          </div>
+      </div>
+  </div>
 
-    <section id="part6" class="tutorials py-5">
-      <div class="row align-items-center container my-5 mx-auto">
-        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <h6>Part 6</h6>
-          <h2>Next Steps</h2>
-          <ul class="conclusion">
-            <li>We'd like to flesh out the map functionality on the site.
-            </li>
-            <li>Increase size of map and reduce white space above and around the map.
-            </li>
-            <li>Create a fully functional responsive website for all viewports.
-            </li>
-            <li>Propose to the business an expansion on partnerships with produce stores as wel as existing cafes and
-              restaurants.
-            </li>
-            <li>Iterate the charity donations so users can directly donate to charities on the BMH site.
-            </li>
-          </ul>
-        </div>
-        <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-          <img class="img-fluid" src="images/casestudy4/mockup15.png" alt="screenshot">
-        </div>
-    </section>
-  </main>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <a href="#top-of-page"><h3 class="text-center">BACK TO TOP</h3></a>
+      </div>
+    </div>
+  </div>
+</main>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script>
-    new WOW().init();
+  <script src="JS/locomotive-scroll.js"></script>
+  <script src="JS/index.js"></script>
+  <script>window.addEventListener("resize", ResizeWindow);
+  
+  function ResizeWindow( )
+  {
+      var dataSpyList = [].slice.call( document.querySelectorAll('[data-spy="scroll"]') );
+
+      dataSpyList.forEach( function( dataSpyElement ) 
+      {
+          .bootstrap.ScrollSpy.getInstance( dataSpyElement ).refresh (
+          );
+      } );
+  }
   </script>
 
 </body>

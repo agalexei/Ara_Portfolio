@@ -144,6 +144,7 @@ border-radius: 4px !important;
 color: #010101 !important;
 border-color: #010101 !important;
 border-width: 2px;
+text-decoration: none !important;
 }
 
 .btn-light:hover {
