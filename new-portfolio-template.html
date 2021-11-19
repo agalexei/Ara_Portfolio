@@ -1,56 +1,809 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/casestudystyle.css">
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <title>Ara Giulambarian | User Experience Design Portfolio</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <link href="CSS/casestudystyle.css" rel="stylesheet" type="text/css">
+    <link href="CSS/base.css" rel="stylesheet" type="text/css">
+    <link href="CSS/locomotive-scroll.css" rel="stylesheet" type="text/css">
+    <link href="/font/specimen_files/specimen_stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+    <link href="dist/pattern.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display&family=Poppins:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
 </head>
-<body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+<body class="body bg-white" id="top-of-page" data-spy="scroll" data-target="#navbar-case-study">
+
+    <!-- TOP NAV -->
+
+    <nav id="navbar-case-study navbarSupportedContent" class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+<div class="container d-flex mx-auto nav-container">
+        
+            <a class="navbar-brand" href="index.html">Ara GLM<span class="line">.</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active text-center" href="#intro">Introduction</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#research">User Research</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#persona">User Persona</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#wireframes">Wireframes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#style">Style Guide</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#prototype">Prototype</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="#conclusion">Next Steps</a>
+            </li>
+            <li class="nav-item mx-auto">
+                <a class="btn btn-light button home-btn" href="index.html">HOME</a>
+            </li>
+        </ul>
         </div>
-      </nav>
+        </div>
+    </nav>
+
+<main data-spy="scroll" data-target="#navbar-case-study" data-offset="0">
+    <div class="container-fluid hero bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto hero-content d-block">
+                    <span>
+                        <h1 class="display-4">Bring Me Home</h1>
+                    </span>
+                    <p class="lead">UX Redesign Case Study of an
+                        Australian Non-Profit Organisation (NGO)</p>
+                </div>
+                <div class="col-md-4 mx-auto hero-content d-flex justify-content-center">
+                    <div class="skills" data-scroll data-scroll-offset="1, 2">
+                        <h4 class="text-left" data-scroll data-scroll-speed="2">Deliverables</h4>
+                        <p class="deliverablesstyle first" data-scroll-speed="4">
+                            UX&nbsp;&amp;&nbsp;DESIGN&nbsp;AUDIT
+                        </p>
+                        <p class="deliverablesstyle" data-scroll-speed="4">COMPETITIVE&nbsp;ANALYSIS</p>
+                        <p class="deliverablesstyle" data-scroll-speed="4">USER&nbsp;TESTING</p>
+                        <p class="deliverablesstyle" data-scroll-speed="4">INFORMATION&nbsp;ARCHITECTURE</p>
+                        <p class="deliverablesstyle" data-scroll-speed="4">UI DESIGN</p>
+                        <p class="deliverablesstyle" data-scroll-speed="4">PROTOYPE</p>
+                        <p class="deliverablesstyle" data-scroll-speed="4" data-scroll-offset="50">
+                            DESIGN&nbsp;SYSTEM
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-md-center mx-auto d-block mb-4 justify-content-center"></div>
+        <div class="row">
+            <div class="col-xs-6 col-md-3 p-4 text-center">
+                <dt class="info">Client</dt>
+                <dd>NFP</dd>
+            </div>
+            <div class="col-xs-6 col-md-3 p-4 text-center">
+                <dt class="info">Year</dt>
+                <dd>2020</dd>
+            </div>
+            <div class="col-xs-6 col-md-3 p-4 text-center">
+                <dt class="info">Service</dt>
+                <dd>Web Redesign</dd>
+            </div>
+            <div class="col-xs-6 col-md-3 p-4 text-center">
+                <dt class="info">Website</dt>
+                <dd><a href="https://www.treesforlife.org.au" target="_blank">treesforlife.org.au</a></dd>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid bg-light">
+        <div class="container section" id="intro">
+            <div class="row intro" data-scroll-container>
+                <div class="col-12 d-flex" data-scroll-section>
+                    <h2 class="line">-</h2>
+                    <h2 idata-scroll border-scroll-speed="1">Introduction</h2>
+                </div>
+                <div>
+                    <p class="text-normal" border-scroll border-scroll-speed="3">
+                        <span class="line">Trees For Life</span> was established in 1981 and remains a vibrant community
+                        organisation of
+                        7,000
+                        active
+                        supporters. Trees For Life delivers conservation, revegetation, community engagement and
+                        training
+                        programs and services.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container section">
+        <div class="row" data-section>
+            <div class="col-md-6 mx-auto" data-scroll border-scroll-speed="2">
+                <h4 class="mx-auto text-center" data-scroll>The Problem</h4>
+                <p class="text-normal" border-scroll border-scroll-speed="3">
+                    The website needs a little polishing and clearer, simpler user flows, as well as new
+                    functionality to
+                    increase community engagement.
+                </p>
+            </div>
+            <div class="col-sm-6" data-scroll border-scroll-speed="4">
+                <picture>
+                    <source media="(min-width: 768px)"
+                        srcset="images/casestudy5/001macbook-pro-mockup-floating-to-the-left@2x.png">
+                    <img src="images/casestudy5/001macbook-pro-mockup-floating-to-the-left@2x.png"
+                        alt="case study image" class="" border-scroll border-scroll-speed="2">
+                </picture>
+            </div>
+
+            <div class="col-sm-6" data-scroll border-scroll-speed="4">
+                <picture>
+                    <source media="(min-width: 768px)"
+                        srcset="images/casestudy5/001macbook-pro-mockup-floating-to-the-left@2x.png">
+                    <img src="images/casestudy5/002macbook-pro-mockup-floating-to-the-right@2x.png"
+                        alt="case study image" class="" border-scroll border-scroll-speed="2">
+                </picture>
+            </div>
+
+            <div class="col-md-6 mx-auto" data-scroll border-scroll-speed="2">
+                <h4 class="mx-auto text-center" data-scroll>The Solution</h4>
+                <p class="text-normal" border-scroll border-scroll-speed="3">
+                    A redesigned homepage that better communicates Trees for Life’s mission to visitors and
+                    new
+                    pages with a
+                    new workshop sign-up feature and a simplified donation process.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row" data-scroll-container>
+            <div class="col-12" data-scroll-section>
+                <div data-scroll-container>
+                    <!-- BIG IMAGE HERE-->
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/casestudy5/imac-mockup-floor-shadow@2x.png">
+                        <img src="images/casestudy5/imac-mockup-floor-shadow@2x.png" alt="case study image"
+                            class="case-study-img d-block mx-auto">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid darkened">
+        <div class="container section">
+            <div class="container-fluid mx-auto">
+                <div class="col-12" data-scroll-section>
+                    <div data-scroll>
+                        <!-- My Approach -->
+                        <div class="col-12 d-flex" data-scroll-section>
+                            <h2 class="line">-</h2>
+                            <h2 data-scroll data-scroll data-scroll-speed="1" class="light-text">
+                                Stakeholder Interview</h2>
+                        </div>
+                        <div class="col-12">
+                            <h4 data-scroll data-scroll-speed="2" class="light-text">By intervirwing the
+                                stakeholder, we identified key areas of improvement on the site:</h4>
+                            <div class="spaces">
+                                <span class="line">1.</span>
+                                <span class="light-text">Too many different pages and too much text
+                                </span>
+                            </div>
+                            <div class="spaces">
+                                <span class="line">2.</span>
+                                <span class="light-text">Needs to be more minimalistic and visually appealing
+                                </span>
+                            </div>
+
+                            <div class="spaces">
+                                <span class="line">3.</span>
+                                <span class="light-text">Needs an online booking systems for volunteering
+                                    opportunities
+                                </span>
+                            </div>
+                            <div class="spaces">
+                                <span class="line">4.</span>
+                                <span class="light-text">
+                                    A bigger emphasis on TFL being a South Australian not-for-profit organisation
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row research section" id="research" data-scroll-container>
+                    <div class="col-12 d-flex" data-scroll-section>
+                        <h2 class="line">-</h2>
+                        <h2 id="research" data-scroll data-scroll data-scroll-speed="1" class="light-text">User
+                            Research</h2>
+                    </div>
+                    <div class="col-12">
+                        <h4 data-scroll data-scroll-speed="2" class="light-text">Key insights from surveys were:
+                        </h4>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="light-box">
+                            <span class="line text-normal">A.</span>
+                            <span>Moajority of the participants were aged 25- 44 and already involved in a Non-Profit
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="light-box">
+                            <span class="line text-normal">B.</span>
+                            <span>Attending a workshop and donating were preferred options as a first step in engaging
+                                with
+                                <span class="line">Trees
+                                    for Life</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="light-box">
+                            <span class="line text-normal">C.</span>
+                            <span>Users had issues with scheduling volunteering opportunities and wanted a booking
+                                systems for volunteering opportunities
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="light-box">
+                            <span class="line text-normal">D.</span>
+                            <span>
+                                A bigger emphasis on</span> <span class="line">Trees For Life</span> <span>being a
+                                South Australian not-for-profit organisation
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex" data-scroll-section>
+                    <h2 class="line">-</h2>
+                    <h2 id="research" data-scroll data-scroll data-scroll-speed="1" class="light-text">Interviews
+                        and Testing</h2>
+                </div>
+                <div class="col-12">
+                    <h4 data-scroll data-scroll-speed="2" class="light-text">Key insights from interviews and
+                        testing were:
+                    </h4>
+                </div>
+                <div class="spaces">
+                    <span class="line">1.</span>
+                    <span class="light-text">In order for volunteers to stay motivated, they'd like to see a
+                        difference from their impacts
+                    </span>
+                </div>
+                <div class="spaces">
+                    <span class="line">2.</span>
+                    <span class="light-text">Easier ways to sign-up and book workshops and volunteer days
+                    </span>
+                </div>
+
+                <div class="spaces">
+                    <span class="line">3.</span>
+                    <span class="light-text">Receiving confirmations and calendar invites for workshops in order to
+                        not forget
+                    </span>
+                </div>
+                <div class="spaces">
+                    <span class="line">4.</span>
+                    <span class="light-text">
+                        An easier and secure "checkout" experience when making donations online
+                    </span>
+                </div>
+                <div class="spaces">
+                    <span class="line">5.</span>
+                    <span class="light-text">
+                        Better content chunking
+                    </span>
+                </div>
+            </div>
+            <div class="col-sm-6" data-scroll-section>
+                <div data-scroll></div>
+            </div>
+            <div class="col-sm-6" data-scroll-section>
+                <div data-scroll></div>
+            </div>
+            <div class="col-sm-6" data-scroll-section>
+                <div data-scroll></div>
+            </div>
+            <div class="col-sm-6" data-scroll-section>
+                <div data-scroll></div>
+            </div>
+        </div>
+        <div class="container section">
+            <div class="row" data-scroll-container>
+                <div class="col-12 d-flex" data-scroll-section>
+                    <h2 class="line">-</h2>
+                    <h2 id="research" data-scroll data-scroll data-scroll-speed="1" class="light-text">Defining a
+                        problem statement</h2>
+                </div>
+                <div class="col-12" data scroll>
+                    <q class="statement">
+                        "Problem Statement: Trees for Life (TFL) aims to improve the health and extent of South
+                        Australia’s natural landscapes. To do this, TFL needs to recruit more volunteers to be
+                        involved in nature restoration and collect donations to fund these efforts. In order to
+                        engage more volunteers and attract donations, TFL needs to demonstrate the impact they are
+                        having and make it easy and straightforward for people to donate or volunteer. The current
+                        TFL website is very text heavy and can give visitors a sense of information overload, which
+                        may be a barrier to participation for some visitors. TFL needs to simplify their
+                        opportunities and streamline the donation and volunteer sign-up processes to better meet
+                        their goals."</q>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row persona" id="persona" data-scroll-container>
+                <div class="col-sm-6 section" data-scroll-section>
+                    <div class="col-12 d-flex" data-scroll-section>
+                        <h2 class="line">-</h2>
+                        <h2 id="intro" data-scroll border-scroll-speed="1">User Persona</h2>
+                    </div>
+                    <div class="row" data-scroll-section>
+                        <div class="col-6" data-scroll data-scroll-speed="1">
+                            <h4>Name</h4>
+                            <p>Jasper Brown</p>
+                            <br>
+                        </div>
+                        <div class="col-6" data-scroll data-scroll-speed="10">
+                            <h4>Age</h4>
+                            <p>35</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row" data-scroll-section>
+                        <div class="col-6" data-scroll data-scroll-speed="1">
+                            <h4>Location</h4>
+                            <p>Adelaide</p>
+                            <br>
+                        </div>
+                        <div class="col-6" data-scroll data-scroll-speed="10">
+                            <h4>Occupation</h4>
+                            <p>Photograpger</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row" data-scroll-section>
+                        <div class="col-6" data-scroll data-scroll-speed="1">
+                            <h4>Goals</h4>
+                            <ul>
+                                <div class="p-1">
+                                    <span class="line">1.</span>
+                                    <span>
+                                        An easy way to donate
+                                    </span>
+                                </div>
+                                <div class="p-1">
+                                    <span class="line">2.</span>
+                                    <span>
+                                        Sign-up form, confirmation email and calendar integration for workshops and
+                                        volunteering opportunities
+                                    </span>
+                                </div>
+                        </div>
+                        <div class="col-6" data-scroll data-scroll-speed="10">
+                            <h4>Pain Points</h4>
+                            <div class="p-1">
+                                <span class="line">1.</span>
+                                <span>
+                                    Too many options to volunteer
+                                </span>
+                            </div>
+                            <div class="p-1">
+                                <span class="line">2.</span>
+                                <span>
+                                    Length of donation process
+                                </span>
+                            </div>
+                            <div class="p-1">
+                                <span class="line">3.</span>
+                                <span>
+                                    Workshop confirmations
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-scroll-section>
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/casestudy5/persona@2x.png">
+                        <img src="images/casestudy5/persona@2x.png" alt="case study image" class="case-study-img"
+                            data-scroll data-scroll-speed="40">
+                    </picture>
+                </div>
+                <div class="col-md-6" data-scroll-section>
+
+                </div>
+            </div>
+            <div class="container section">
+                <div class="row  wireframes" data-scroll-container id="direction">
+                    <div class="col-12 d-flex" data-scroll-section>
+                        <h2 class="line">-</h2>
+                        <h2 id="intro" data-scroll border-scroll-speed="1">User Flows</h2>
+                    </div>
+
+                    <div class="row" data-scroll-section>
+                        <div class="col-md-6" data-scroll>
+                            <h4 class=text-center>Registering for workshops</h4>
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="images/casestudy5/journey-1@2x.png">
+                                <img src="images/casestudy5/journey-1@2x.png" alt="case study image"
+                                    class="case-study-img c-direction-block_item_inner mx-auto d-block is-inview"
+                                    data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8"
+                                    data-scroll-target="#direction">
+                            </picture>
+                        </div>
+
+                        <div class="col-md-6" data-scroll-section>
+                            <h4 class=text-center>Donations checkout</h4>
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="images/casestudy5/journey-2@2x.png">
+                                <img src="images/casestudy5/journey-2@2x.png" alt="case study image"
+                                    class="case-study-img mx-auto d-block c-direction-block_item_inner is-inview"
+                                    data-scroll data-scroll-direction="horizontal" data-scroll-speed="8"
+                                    data-scroll-target="#direction">
+                            </picture>
+                        </div>
+                    </div>
+
+                    <div class="container section" id="wireframes">
+                        <div class="row" data-scroll-section>
+                            <div class="col-12 d-flex" data-scroll-section>
+                                <h2 class="line">-</h2>
+                                <h2 id="intro" data-scroll border-scroll-speed="1">Wireframes</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12" data-scroll data-scroll-speed="20">
+                                <h4>Desktop Landing Page</h4>
+                            </div>
+                            <div class="col-md-4" data-scroll>
+                                <picture>
+                                    <source media="(min-width: 768px)"
+                                        srcset="images/casestudy5/Screen Shot 2020-12-19 at 15.17.13@2x.png">
+                                    <img src="images/casestudy5/Screen Shot 2020-12-19 at 15.17.13@2x.png"
+                                        alt="case study image" class="case-study-img prototype-img" data-scroll
+                                        data-scroll-speed="2">
+                                </picture>
+                            </div>
+
+                            <div class="col-md-4" data-scroll>
+                                <picture>
+                                    <source media="(min-width: 768px)"
+                                        srcset="images/casestudy5/Screen Shot 2020-12-19 at 15.17.38@2x.png">
+                                    <img src="images/casestudy5/Screen Shot 2020-12-19 at 15.17.38@2x.png"
+                                        alt="case study image" class="case-study-img prototype-img" data-scroll
+                                        data-scroll-speed="2">
+                                </picture>
+                            </div>
+
+                            <div class="col-md-4" data-scroll>
+                                <picture>
+                                    <source media="(min-width: 768px)"
+                                        srcset="mages/casestudy5/Screen Shot 2020-12-19 at 15.17.46@2x.png">
+                                    <img src="images/casestudy5/Screen Shot 2020-12-19 at 15.17.46@2x.png"
+                                        alt="case study image" class="case-study-img prototype-img" data-scroll
+                                        data-scroll-speed="2">
+                                </picture>
+                            </div>
+                            <div class="col-md-6" data-scroll></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12" data-scroll-section></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-black">
+        <div class="container section" id="style">
+            <div class="row style-guide" data-scroll-container>
+                <div class="col-12 d-flex" data-scroll-section>
+                    <h2 class="line">-</h2>
+                    <h2 id="intro" class="light-text" data-scroll border-scroll-speed="1">Style Guide</h2>
+                </div>
+                <div class="col-md-5" data-scroll-section>
+                    <div class="col-12">
+                        <h4 data-scroll data-scroll-speed="2" class="light-text">Colours
+                        </h4>
+                    </div>
+                    <div class="col-12" data-scroll>
+                        <h3 class="dark-text">Colours</h3>
+                    </div>
+                    <div class="row" data-scroll data-scroll-speed="4">
+                        <div class="col-6 text-white ml-4 text-uppercase">
+                            <div class="colour1">
+                                #3B7F63
+                            </div>
+                        </div>
+                        <div class="col-6 text-white ml-4 text-uppercase">
+                            <div class="colour2">
+                                #113A51
+                            </div>
+                        </div>
+                        <div class="col-6 text-black ml-4 text-uppercase">
+                            <div class="colour3">
+                                #F3F8FC
+                            </div>
+                        </div>
+                        <div class="col-6 text-black ml-4 text-uppercase">
+                            <div class="colour4">
+                                #CCCDCD
+                            </div>
+                        </div>
+                        <div class="col-6 text-white ml-4 text-uppercase">
+                            <div class="colour5">
+                                #2D2E2E
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7" data-scroll-section>
+                    <!-- typography-->
+                    <div class="col-12">
+                        <h4 data-scroll data-scroll-speed="2" class="light-text">Typography
+                        </h4>
+                    </div>
+                    <div class="row" data-scroll data-scroll-speed="4">
+                        <div style="overflow-x:auto;">
+                            <table class="table table-responsive col-12">
+                                <thead>
+                                    <tr>
+                                        <th class="text-white">Type</th>
+                                        <th class="text-white">Example</th>
+                                        <th class="text-white">Font</th>
+                                        <th class="text-white">Font Size</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <div class="h1">
+                                        <tr>
+                                            <td class="text-white">Heading 1</td>
+                                            <td>
+                                                <p class="h1">Heading 1</p>
+                                            </td>
+                                            <td class="text-white">Montserrat Bold</td>
+                                            <td class="text-white">48px</td>
+                                        </tr>
+                                    </div>
+                                    <div class="h2">
+                                        <tr>
+                                            <td class="text-white">Heading 2</td>
+                                            <td>
+                                                <p class="h2">Heading 2</p>
+                                            </td>
+                                            <td class="text-white">Montserrat Medium</td>
+                                            <td class="text-white">32px</td>
+                                        </tr>
+                                    </div>
+                                    <div class="h3">
+                                        <tr>
+                                            <td class="text-white">Secondary 1</td>
+                                            <td>
+                                                <p class="h3">Subheading</p>
+                                            </td>
+                                            <td class="text-white">Montserrat Regular</td>
+                                            <td class="text-white">24px</td>
+                                        </tr>
+                                    </div>
+                                    <div class="h4">
+                                        <td>
+                                            <p class="h4">Paragraph</p>
+                                        </td>
+                                        <td class="text-white">Paragraph</td>
+                                        <td class="text-white">Montserrat Regular</td>
+                                        <td class="text-white">16px</td>
+                                        </tr>
+                                    </div>
+                                    <tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row section p-4" id="prototype" data-scroll-container>
+            <div class="col-12 d-flex p-4" data-scroll-section>
+                <h2 class="line">-</h2>
+                <h2 id="intro" data-scroll border-scroll-speed="1">Desktop Prototype</h2>
+            </div>
+            <span class="mx-auto text-center text-left">
+                <a href="https://xd.adobe.com/view/ca778207-b1d1-4d6e-9a25-49a0437aa838-9f24/  " target=”_blank”
+                    class="prototype">link to prototype</a>
+            </span>
+            <div class="row">
+                <div class="col-sm-6">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/casestudy5/imac-mockup-floor-shadow-1@2x.png">
+                        <img src="images/casestudy5/imac-mockup-floor-shadow-1@2x.png" alt="case study image"
+                            class="case-study-img d-block mx-auto prototype-img c-direction-block_item_inner is-inview"
+                            data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8"
+                            data-scroll-target="#direction">
+                    </picture>
+                </div>
+                <div class="col-sm-6 col-md-6" data-scroll>
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/casestudy5/imac-mockup-floor-shadow-2@2x.png">
+                        <img src="images/casestudy5/imac-mockup-floor-shadow-2@2x.png" alt="case study image"
+                            class="case-study-img d-block mx-auto prototype-img c-direction-block_item_inner is-inview"
+                            data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8"
+                            data-scroll-target="#direction">
+                    </picture>
+                </div>
+                <div class="col-sm-6 col-md-6" data-scroll>
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/casestudy5/imac-mockup-floor-shadow@2x.png">
+                        <img src="images/casestudy5/imac-mockup-floor-shadow@2x.png" alt="case study image"
+                            class="case-study-img d-block mx-auto prototype-img c-direction-block_item_inner is-inview"
+                            data-scroll data-scroll-direction="horizontal" data-scroll-speed="8"
+                            data-scroll-target="#direction">
+                    </picture>
+                </div>
+                <div class="col-sm-6 col-md-6" data-scroll>
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/casestudy5/imac-mockup-floor-shadow01@2x.png">
+                        <img src="images/casestudy5/imac-mockup-floor-shadow01@2x.png" alt="case study image"
+                            class="case-study-img mx-auto d-block prototype-img c-direction-block_item_inner is-inview"
+                            data-scroll data-scroll-direction="horizontal" data-scroll-speed="8"
+                            data-scroll-target="#direction">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <div class="row section p-4" data-scroll-container>
+            <div class="col-12 d-flex p-4" data-scroll-section>
+                <h2 class="line">-</h2>
+                <h2 id="intro" data-scroll border-scroll-speed="1">Mobile Prototype</h2>
+            </div>
+            <span class="mx-auto text-center text-left">
+                <a href="https://xd.adobe.com/view/29483c91-7bc3-4b47-a09e-d3735da2aa01-7c1b/" target=”_blank”
+                    class="prototype">link to prototype</a>
+            </span>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6" data-scroll>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/casestudy5/mobile1@2x.png">
+                    <img src="images/casestudy5/mobile1@2x.png" alt="case study image"
+                        class="case-study-img mx-auto d-block prototype-img">
+                </picture>
+            </div>
+            <div class="col-sm-6 col-md-6" data-scroll>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/casestudy5/mobile2@2x.png">
+                    <img src="images/casestudy5/mobile2@2x.png" alt="case study image"
+                        class="case-study-img mx-auto d-block prototype-img">
+                </picture>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row section" data-scroll-container>
+            <div class="col-12" data-scroll-section>
+                <div data-scroll>
+                    <!-- Testing -->
+                    <div class="col-12 d-flex" data-scroll-section>
+                        <h2 class="line">-</h2>
+                        <h2 id="intro" data-scroll border-scroll-speed="1">Iterations</h2>
+                    </div>
+                    <h4 data-scroll data-scroll-speed="2" class="">Through AB Testing, we tested slight changes to our
+                        donation page.
+                    </h4>
+                    <p class="text-normal">We found mixed reviews of keeping subscription checkbox above the “confirm”
+                        CTA,
+                        however
+                        decided
+                        to keep
+                        that way.</p>
+                    <p class="text-normal">No automatic donation frequency, as user may unknowingly subscribe to
+                        payments.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/casestudy5/AB@2x.png">
+                    <img src="images/casestudy5/version-a.png" alt="case study image" class="case-study-img">
+                </picture>
+            </div>
+
+            <div class="col-md-6">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/casestudy5/AB@2x2.png">
+                    <img src="images/casestudy5/version-b.png" alt="case study image" class="case-study-img">
+                </picture>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row section conclusion" id="conclusion" data-scroll-container>
+            <div class="col-md-6" data-scroll-section>
+                <div class="col-12 d-flex" data-scroll-section>
+                    <h2 class="line">-</h2>
+                    <h2 id="intro" data-scroll border-scroll-speed="1">Next Steps</h2>
+                </div>
+                <p class="text-normal" data-scroll>Workshops to include non members to attend for a small fee.</p>
+                <p class="text-normal" data-scroll>Simplified volunteer information flow and sign-up process.</p>
+            </div>
+            <div class="col-sm-6" data-scroll-section>
+                <picture>
+                    <source media="(min-width: 768px)"
+                        srcset="images/casestudy5/002macbook-pro-mockup-floating-to-the-right@2x.png">
+                    <img src="images/casestudy5/002macbook-pro-mockup-floating-to-the-right@2x.png"
+                        alt="case study image" class="case-study-img" data-scroll data-scroll-speed="2">
+                </picture>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <a href="#top-of-page"><h3 class="text-center">BACK TO TOP</h3></a>
+        </div>
+      </div>
+    </div>
+</main>
+
+    <script src="JS/locomotive-scroll.js"></script>
+    <script src="JS/index.js"></script>
+    <script>window.addEventListener("resize", ResizeWindow);
+    
+    function ResizeWindow( )
+    {
+        var dataSpyList = [].slice.call( document.querySelectorAll('[data-spy="scroll"]') );
+
+        dataSpyList.forEach( function( dataSpyElement ) 
+        {
+            .bootstrap.ScrollSpy.getInstance( dataSpyElement ).refresh (
+            );
+        } );
+    }
+    </script>
 
 </body>
+
 </html>
