@@ -80,6 +80,83 @@ q {
   line-height: 21px;
 }
 
+.navbar-fixed-top {
+  position: sticky; top: 0;
+}
+
+.navbar {
+  background: #fff !important;
+  z-index: 100 !important;
+  width: 100vw !important;
+}
+
+.nabar .navbar-brand {
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+}
+
+.navbar-brand {
+  font-family: 'suisse_bp_intlantique' !important;
+  font-size: 40px;
+  text-decoration: none !important;
+}
+.navbar-brand:hover {
+  color: #252837 !important;
+}
+
+.nav-item {
+  padding: 16px;
+}
+
+.nav-container {
+  padding: 4px;
+}
+
+#navbar-case-study > ul > li:nth-child(n) > a {
+ color: #010101 !important;
+ font-size: 1.1rem !important;
+ padding: 0 1rem !important;
+ text-decoration: none !important;
+}
+
+#navbar-case-study > ul > li:nth-child(n) > a:hover,
+#navbar-case-study > ul > li:nth-child(n) > a:active {
+color: #ec1e64 !important;
+text-decoration: none !important;
+}
+
+#navbar-case-study > ul > li:nth-child(n) > .home-btn
+#navbar-case-study > ul > li:nth-child(n) > .home-btn {
+  text-decoration: none !important;
+}
+
+#navbar-case-study > ul > li:nth-child(n) > .home-btn:hover,
+#navbar-case-study > ul > li:nth-child(n) > .home-btn:active {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.btn-light {
+background-color: #fff !important;
+font-weight: 600 !important;
+padding: 0.4rem 1.4rem !important;
+border-radius: 4px !important;
+color: #010101 !important;
+border-color: #010101 !important;
+border-width: 2px;
+}
+
+.btn-light:hover {
+    background-color: #ec1e64 !important;
+    color: #fff !important;
+    border-color: #ec1e64 !important;
+}
+.btn.active.focus, .btn.active:focus,
+.btn.focus, .btn:active.focus, 
+.btn:active:focus, .btn:focus {
+      outline: none !important;
+}
+
 a {
   color: #252837 !important;
   text-decoration:underline !important;
@@ -112,83 +189,6 @@ img {
   max-width: 80vw !important;
   padding: 24px !important;
 }
-
-.navbar-fixed-top {
-    position: sticky; top: 0;
-}
-
-  .navbar {
-    background: #fff !important;
-    z-index: 100 !important;
-    width: 100vw !important;
-  }
-  
-  .nabar .navbar-brand {
-    font-size: 1.4rem !important;
-    font-weight: 700 !important;
-  }
-
-  .navbar-brand {
-    font-family: 'suisse_bp_intlantique' !important;
-    font-size: 40px;
-    text-decoration: none !important;
-  }
-  .navbar-brand:hover {
-    color: #252837 !important;
-  }
-
-  .nav-item {
-    padding: 16px;
-  }
-
-  .nav-container {
-    padding: 4px;
-  }
-  
-  #navbar-case-study > ul > li:nth-child(n) > a {
-   color: #010101 !important;
-   font-size: 1.1rem !important;
-   padding: 0 1rem !important;
-   text-decoration: none !important;
-  }
-  
-  #navbar-case-study > ul > li:nth-child(n) > a:hover,
-  #navbar-case-study > ul > li:nth-child(n) > a:active {
-  color: #ec1e64 !important;
-  text-decoration: none !important;
-  }
-
-  #navbar-case-study > ul > li:nth-child(n) > .home-btn
-  #navbar-case-study > ul > li:nth-child(n) > .home-btn {
-    text-decoration: none !important;
-  }
-
-  #navbar-case-study > ul > li:nth-child(n) > .home-btn:hover,
-  #navbar-case-study > ul > li:nth-child(n) > .home-btn:active {
-    color: #ffffff !important;
-    text-decoration: none !important;
-  }
-  
-  .btn-light {
-  background-color: #fff !important;
-  font-weight: 600 !important;
-  padding: 0.4rem 1.4rem !important;
-  border-radius: 4px !important;
-  color: #010101 !important;
-  border-color: #010101 !important;
-  border-width: 2px;
-  }
-  
-  .btn-light:hover {
-      background-color: #ec1e64 !important;
-      color: #fff !important;
-      border-color: #ec1e64 !important;
-  }
-  .btn.active.focus, .btn.active:focus,
-  .btn.focus, .btn:active.focus, 
-  .btn:active:focus, .btn:focus {
-        outline: none !important;
-  }
 
   .hero {
     padding-top: 12rem;
