@@ -140,6 +140,10 @@ img {
   .nav-item {
     padding: 16px;
   }
+
+  .nav-container {
+    padding: 4px;
+  }
   
   #navbar-case-study > ul > li:nth-child(n) > a {
    color: #010101 !important;
@@ -157,6 +161,7 @@ img {
   #navbar-case-study > ul > li:nth-child(n) > .home-btn:hover,
   #navbar-case-study > ul > li:nth-child(n) > .home-btn:active {
     color: #ffffff !important;
+    text-decoration: none !important;
   }
   
   .btn-light {
@@ -317,9 +322,6 @@ color: #fff;
     padding: 0 !important;
     margin: 0 !important;
   }
-    .navbar {
-        display: none;
-    }
 
     .hero {
       padding-top: 6rem;
