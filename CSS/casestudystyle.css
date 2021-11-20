@@ -24,7 +24,7 @@ h1 {
 
 h4 {
   font-family: 'Poppins', sans-serif;
-  color: #ec1e64;
+  color:#ec1e64;
   font-weight: 500;
   font-size: 24px !important;
   line-height: 32px;
@@ -114,12 +114,17 @@ img {
 }
 
 .big-img {
-  width: 100% !important;
+  width: 100vw !important;
   padding: 16px !important;
 }
 
 .navbar-fixed-top {
     position: sticky; top: 0;
+}
+
+.img-screenshot {
+  max-height: 90vh;
+  }
 }
 
   .navbar {
@@ -180,9 +185,9 @@ img {
   }
   
   .btn-light:hover {
-      background-color: #ec1e64 !important;
+      background-color: #ec1e64!important;
       color: #fff !important;
-      border-color: #ec1e64 !important;
+      border-color: rgba(236, 30, 100, 0.9)!important;
   }
   .btn.active.focus, .btn.active:focus,
   .btn.focus, .btn:active.focus, 
@@ -205,6 +210,9 @@ padding: 24px;
 
 .darkened {
   background-color: #1d1d1d;
+  width:100vw;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .light-text {
@@ -222,26 +230,30 @@ padding: 24px;
 }
 
 .light-box:hover {
-  box-shadow: rgba(236, 30, 100, 0.9) 24px 24px;
+  box-shadow: rgba(236, 30, 100, 0.9)!important;
 }
 
 .statement {
 color: #fff;
 }
 
+.ideation-img {
+  padding: 4vw !important;
+}
+
 .prototype-img {
   max-width: 25vw;
 }
 .prototype-img:hover {
-  box-shadow: rgba(236, 30, 100, 0.9) 24px 24px;
+  box-shadow: rgba(236, 30, 100, 0.9)!important;
 }
 
 .big-img:hover {
-  box-shadow: rgba(236, 30, 100, 0.9) 24px 24px;
+  box-shadow:rgba(236, 30, 100, 0.9)!important;
 }
 
  .colour1 {
-  background-color: #FA9508;
+  background-color: #F21D6B;
   padding:24px;
   text-align: center;
   height: 8vh;
@@ -250,7 +262,7 @@ color: #fff;
   border-radius: 4px;
 }
 .colour2 {
-  background-color: #12332D;
+  background-color: #0583F2;
   padding:24px;
   text-align: center;
   height: 8vh;
@@ -259,7 +271,7 @@ color: #fff;
   border-radius: 4px;
 }
 .colour3 {
-  background-color: #CC771C;
+  background-color: #11D990;
   padding:24px;
   text-align: center;
   height: 8vh;
@@ -268,7 +280,7 @@ color: #fff;
   border-radius: 4px;
 }
 .colour4 {
-  background-color: #010705;
+  background-color: #F2F2F2;
   padding:24px;
   text-align: center;
   height: 8vh;
@@ -277,16 +289,7 @@ color: #fff;
   border-radius: 4px;
 }
 .colour5 {
-  background-color: #FFCD86;
-  padding:24px;
-  text-align: center;
-  height: 8vh;
-  font-family: 'poppins';
-  margin: 8px;
-  border-radius: 4px;
-}
-.colour6 {
-  background-color: #FFFEFD;
+  background-color: #0D0D0D;
   padding:24px;
   text-align: center;
   height: 8vh;
@@ -296,8 +299,8 @@ color: #fff;
 }
 
 .h1 {
-  font-family: 'PT Sans Narrow', sans-serif !important;
-  font-size: 72px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 48px !important;
   font-weight: bold !important;
   padding: 0;
   margin: 0;
@@ -306,8 +309,8 @@ color: #fff;
 }
 
 .h2 {
-  font-family: 'PT Sans Narrow', sans-serif !important;
-  font-size: 48px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 32px !important;
   font-weight: bold !important;
   padding: 0;
   margin: 0;

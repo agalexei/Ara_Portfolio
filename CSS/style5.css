@@ -24,7 +24,7 @@ h1 {
 
 h4 {
   font-family: 'Poppins', sans-serif;
-  color: #ec1e64;
+  color: #25F3AF;
   font-weight: 500;
   font-size: 24px !important;
   line-height: 32px;
@@ -38,7 +38,7 @@ h3 {
 }
 
 .info {
-  color: #ec1e64;
+  color: #25F3AF;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -76,8 +76,18 @@ q {
 }
 
 .deliverablesstyle {
-  color: #ec1e64;
+  color: #25F3AF;
   line-height: 21px;
+}
+
+a {
+  color: #252837 !important;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #25F3AF !important;
 }
 
 .navbar-fixed-top {
@@ -121,13 +131,8 @@ q {
 
 #navbar-case-study > ul > li:nth-child(n) > a:hover,
 #navbar-case-study > ul > li:nth-child(n) > a:active {
-color: #ec1e64 !important;
+color: #25F3AF !important;
 text-decoration: none !important;
-}
-
-#navbar-case-study > ul > li:nth-child(n) > .home-btn
-#navbar-case-study > ul > li:nth-child(n) > .home-btn {
-  text-decoration: none !important;
 }
 
 #navbar-case-study > ul > li:nth-child(n) > .home-btn:hover,
@@ -144,13 +149,12 @@ border-radius: 4px !important;
 color: #010101 !important;
 border-color: #010101 !important;
 border-width: 2px;
-text-decoration: none !important;
 }
 
 .btn-light:hover {
-    background-color: #ec1e64 !important;
+    background-color: #25F3AF !important;
     color: #fff !important;
-    border-color: #ec1e64 !important;
+    border-color: #25F3AF !important;
 }
 .btn.active.focus, .btn.active:focus,
 .btn.focus, .btn:active.focus, 
@@ -158,18 +162,8 @@ text-decoration: none !important;
       outline: none !important;
 }
 
-a {
-  color: #252837 !important;
-  text-decoration:underline !important;
-}
-
-a:hover {
-  text-decoration: none !important;
-  color: #ec1e64 !important;
-}
-
 .line {
-  color: #ec1e64;
+  color: #25F3AF;
   font-weight: 600;
 }
 

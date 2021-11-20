@@ -24,7 +24,7 @@ h1 {
 
 h4 {
   font-family: 'Poppins', sans-serif;
-  color: #ec1e64;
+  color:#F23005;
   font-weight: 500;
   font-size: 24px !important;
   line-height: 32px;
@@ -38,7 +38,7 @@ h3 {
 }
 
 .info {
-  color: #ec1e64;
+  color: #F23005;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -76,7 +76,7 @@ q {
 }
 
 .deliverablesstyle {
-  color: #ec1e64;
+  color: #F23005;
   line-height: 21px;
 }
 
@@ -87,11 +87,11 @@ a {
 
 a:hover {
   text-decoration: none !important;
-  color: #ec1e64 !important;
+  color: #F23005 !important;
 }
 
 .line {
-  color: #ec1e64;
+  color: #F23005;
   font-weight: 600;
 }
 
@@ -159,7 +159,7 @@ img {
   
   #navbar-case-study > ul > li:nth-child(n) > a:hover,
   #navbar-case-study > ul > li:nth-child(n) > a:active {
-  color: #ec1e64 !important;
+  color: #F23005 !important;
   text-decoration: none !important;
   }
 
@@ -180,9 +180,9 @@ img {
   }
   
   .btn-light:hover {
-      background-color: #ec1e64 !important;
+      background-color: #F23005!important;
       color: #fff !important;
-      border-color: #ec1e64 !important;
+      border-color: #F23005!important;
   }
   .btn.active.focus, .btn.active:focus,
   .btn.focus, .btn:active.focus, 
@@ -225,7 +225,7 @@ padding: 24px;
 }
 
 .light-box:hover {
-  box-shadow: rgba(236, 30, 100, 0.9) 24px 24px;
+  box-shadow: rgba(242, 88, 53, 0.9) !important;
 }
 
 .statement {
@@ -236,11 +236,11 @@ color: #fff;
   max-width: 25vw;
 }
 .prototype-img:hover {
-  box-shadow: rgba(236, 30, 100, 0.9) 24px 24px;
+  box-shadow: rgba(242, 88, 53, 0.9) !important;
 }
 
 .big-img:hover {
-  box-shadow: rgba(236, 30, 100, 0.9) 24px 24px;
+  box-shadow: rgba(242, 88, 53, 0.9) !important;
 }
 
  .colour1 {
