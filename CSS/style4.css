@@ -113,11 +113,6 @@ img {
   padding: 24px !important;
 }
 
-.big-img {
-  width: 100% !important;
-  padding: 16px !important;
-}
-
 .navbar-fixed-top {
     position: sticky; top: 0;
 }
@@ -232,14 +227,11 @@ padding: 24px;
 color: #fff;
 }
 
-.prototype-img {
-  max-width: 25vw;
-}
-.prototype-img:hover {
+.img-fluid:hover {
   box-shadow: rgba(242, 88, 53, 0.9) !important;
 }
 
-.big-img:hover {
+.img-fluid:hover {
   box-shadow: rgba(242, 88, 53, 0.9) !important;
 }
 

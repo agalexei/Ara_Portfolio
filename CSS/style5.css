@@ -220,11 +220,8 @@ padding: 24px;
 color: #fff;
 }
 
-.prototype-img {
-  max-width: 25vw;
-}
-.prototype-img:hover {
-  box-shadow: rgba(236, 30, 100, 0.9) 24px 24px;
+.img-fluid:hover {
+  box-shadow: rgba(236, 30, 100, 0.9) 24px 24px !important;
 }
 
  .colour1 {
