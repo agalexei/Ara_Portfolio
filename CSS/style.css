@@ -184,7 +184,7 @@ html {
     transition: color 200ms ease;
     color: #000;
     text-decoration: none;
-    padding: 4px !important;
+    padding:
   }
   
   .footer-link:hover {

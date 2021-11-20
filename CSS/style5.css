@@ -15,6 +15,12 @@
 
 }
 
+body {
+  max-width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif !important;
   font-weight: 700 !important;
@@ -97,7 +103,6 @@ a:hover {
 .navbar {
   background: #fff !important;
   z-index: 100 !important;
-  width: 100vw !important;
 }
 
 .nabar .navbar-brand {
@@ -173,16 +178,6 @@ h2 {
   font-family: 'Poppins', sans-serif !important;
   font-weight: 500 !important;
   padding: 8px !important;
-}
-
-img {
-  max-width: 50vw;
-  padding: 16px !important;
-}
-
-.case-study-image {
-  max-width: 80vw !important;
-  padding: 24px !important;
 }
 
   .hero {
@@ -310,12 +305,10 @@ color: #fff;
   color: #f3f3f3;
 }
 
-
  @media only screen and (max-width: 600px) {
 
   body {
     position: relative;
-    width: 100vw !important;
     padding: 0 !important;
     margin: 0 !important;
   }
@@ -334,17 +327,7 @@ color: #fff;
       padding: 16px;
     }
 
-    img {
-      max-width: 100vw;
-      padding-left: 0 !important;
-    }
-
     h2 {
       font-size: 40px !important;
-    }
-
-    .case-study-image {
-      max-width: 100vw !important;
-      border-radius: 0 !important;
     }
  }
