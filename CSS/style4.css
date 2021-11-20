@@ -231,10 +231,6 @@ color: #fff;
   box-shadow: rgba(242, 88, 53, 0.9) !important;
 }
 
-.img-fluid:hover {
-  box-shadow: rgba(242, 88, 53, 0.9) !important;
-}
-
  .colour1 {
   background-color: #FA9508;
   padding:24px;
@@ -366,13 +362,5 @@ color: #fff;
     .case-study-image {
       max-width: 100vw !important;
       border-radius: 0 !important;
-    }
-
-    .big-img {
-      border-radius: 0 !important;
-    }
-
-    .prototype-img {
-      max-width: 80vw;
     }
  }
