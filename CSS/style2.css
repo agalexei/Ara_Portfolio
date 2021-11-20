@@ -113,11 +113,6 @@ img {
   padding: 24px !important;
 }
 
-.big-img {
-  width: 100vw !important;
-  padding: 16px !important;
-}
-
 .navbar-fixed-top {
     position: sticky; top: 0;
 }
@@ -244,11 +239,11 @@ color: #fff;
 .prototype-img {
   max-width: 25vw;
 }
-.prototype-img:hover {
+.img-fluid:hover {
   box-shadow: rgba(236, 30, 100, 0.9)!important;
 }
 
-.big-img:hover {
+.img-fluid:hover {
   box-shadow:rgba(236, 30, 100, 0.9)!important;
 }
 
@@ -365,6 +360,10 @@ color: #fff;
     img {
       max-width: 100vw;
       padding-left: 0 !important;
+    }
+
+    h1 {
+      font-size: 40px !important;
     }
 
     h2 {
