@@ -213,7 +213,8 @@ padding: 24px;
 }
 
 .light-box:hover {
-  box-shadow: rgba(242, 88, 53, 0.9) !important;
+  box-shadow: rgba(242, 88, 53, 0.9) 24px 24px !important;
+}
 }
 
 .statement {
@@ -221,7 +222,7 @@ color: #fff;
 }
 
 .img-fluid:hover {
-  box-shadow: rgba(242, 88, 53, 0.9) !important;
+  box-shadow: rgba(242, 88, 53, 0.9) 24px 24px !important;
 }
 
  .colour1 {
