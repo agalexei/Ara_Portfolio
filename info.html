@@ -30,6 +30,12 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="css/animate/animate.css">
+<link rel="stylesheet" href="css/animate/animate.css">
 </head>
 
 <body class="body">
@@ -37,7 +43,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="nav-container mx-auto d-block">
+      <div class="nav-container mx-auto d-block wow fadeInDown">
         <div class="row banner">
           <div class="col-sm-3 small-container">
             <a href="index.html" aria-current="page" class="brand w--current">Freelance User Experience (UX) & Product
@@ -60,7 +66,7 @@
 
     <div class="row">
       <div class="section wf-section" data-scroll-container>
-        <div class="main-container align-center"><a href="index.html"><img src="images/ArmenianEternity.svg"
+        <div class="main-container align-center wow animate__fadeInLeft"><a href="index.html"><img src="images/ArmenianEternity.svg"
               loading="lazy" alt="my logo" class="logo inline" data-scroll data-scroll-speed="1"></a><br>
           <div class="col-xs-12" data-scroll-section>
             <h1 data-scroll data-scroll-speed="2">ABOUT ME</h1>
@@ -71,25 +77,25 @@
     </div>
 
     <div class="row" data-scroll-container>
-      <div class="main-container" data-scroll-sticky><img src="images/me.jpg" loading="lazy" alt="image of me" class="image tilt-left">
+      <div class="main-container wow animate__fadeInUp" data-scroll-sticky><img src="images/me.jpg" loading="lazy" alt="image of me" class="image tilt-left">
       </div>
     </div>
 
     <div class="row" data-scroll-container>
       <div class="section wf-section">
         <div class="main-container" data-scroll-section>
-          <h2 class="big-text" data-scroll lerp>I am a graduate from Macquarie University with a Bachelor of Global Business, as well as
+          <h2 class="big-text wow animate__fadeInUp" data-scroll lerp>I am a graduate from Macquarie University with a Bachelor of Global Business, as well as
             a Certificate in UX/UI Design. I also have a wealth of experience in financial services and the retail
             sector. My background not only alows me to critically analyse your user problems, but also come up with
             unique, yet effective solutions. Thus, making your product not only look better, but also more functional
             and accessible.</h2>
         </div>
         <div class="main-container" data-scroll-section>
-          <h2 class="big-text" data-scroll lerp>I am a natural problem solver who is able to see problems through multiple perspectives.
+          <h2 class="big-text wow animate__fadeInUp" data-scroll lerp>I am a natural problem solver who is able to see problems through multiple perspectives.
             My background will also allow me to meet your needs (as my client), cultural or otherwise.</h2>
         </div>
         <div class="main-container" data-scroll-section>
-          <h2 class="big-text" data-scroll lerp>I'm focused on developing and testing designs that solve user’s needs, through elegant
+          <h2 class="big-text wow animate__fadeInUp" data-scroll lerp>I'm focused on developing and testing designs that solve user’s needs, through elegant
             interfaces. My creative style is minimal, yet elegant and impactful. I am also very passionate about
             creative thinking and design.</h2>
         </div>
@@ -97,7 +103,7 @@
     </div>
 
     <div class="row" data-scroll-container>
-      <div class="section no-padding wf-section" data-scroll-section>
+      <div class="section no-padding wf-section wow animate__fadeInUp" data-scroll-section>
         <div class="main-container"><img src="images/desk setup.jpeg" loading="lazy"
             sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, 99vw" alt="desk setup"
             class="image tilt-right" data-scroll-sticky>
@@ -107,7 +113,7 @@
 
     <div class="row">
       <div class="col-12 section">
-        <div class="main-container">
+        <div class="main-container wow animate__fadeInLeft">
           <iframe width="100%" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJizrHxcClEmsR1RwC4pxrJPo&key=AIzaSyAe_huDvvQQcaN6HSYbmEQVInBuPpgbtqY"></iframe>
         </div>
       </div>
@@ -115,7 +121,7 @@
 
     <div class="row">
       <div class="section wf-section" data-scroll-container>
-        <div class="main-container" data-scroll-section>
+        <div class="main-container wow animate__fadeInRight" data-scroll-section>
           <div class="big-text less-bottom-padding">
             <h2 data-scroll>Interested in working together? Drop me a
               message to chat, or even just to say hi!</h2>
@@ -131,7 +137,7 @@
 
     <div class="row footer">
       <div class="main-container">
-        <div class="footer-spacing">
+        <div class="footer-spacing wow animate__fadeInUp">
           <div class="col-md-2">
             <div id="contact">
               <a href="mailto: aglmdesigns@gmail.com" class="footer-link">aglmdesigns@gmail.com</a>
@@ -170,5 +176,8 @@
 </script>
 <script src="JS/bootstrap/popper.js"></script>
 </body>
-
+<script src="JS/wow/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 </html>

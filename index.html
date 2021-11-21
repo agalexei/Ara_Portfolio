@@ -33,14 +33,18 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.2/dist/locomotive-scroll.min.js"></script>
-
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <link rel="stylesheet" href="css/animate/animate.css">
 </head>
 
 <body class="body">
 
     <div class="container">
 
-        <div class="nav-container mx-auto d-block" data-scroll-container>
+        <div class="nav-container mx-auto d-block wow fadeInDown" data-scroll-container>
             <div class="row banner" data-scroll-section>
                 <div data-scroll data-scroll-speed="2" class="col-sm-3 small-container">
                     <a href="index.html" aria-current="page" class="brand w--current navig-buttons">Freelance User Experience (UX) &
@@ -61,11 +65,11 @@
         </div>
 
         <div class="row section wf-section" data-scroll-container>
-            <div class="col-xs-12" data-scroll-section>
+            <div class="col-xs-12 wow animate__fadeInUp" data-scroll-section>
                 <h1 data-scroll data-scroll-speed="4">ARA GLM.</h1>
             </div>
             <div class="col-xs-12" data-scroll-section>
-                <img src="images/david.jpg" loading="lazy" alt="title image" class="full-width" data-scroll data-scroll-speed="2">
+                <img src="images/david.jpg" loading="lazy" alt="title image" class="full-width wow animate__fadeInUp" data-scroll data-scroll-speed="2">
             </div>
         </div>
 
@@ -74,13 +78,13 @@
                 <div data-scroll data-scroll-speed="1" class="section-title" id="work">Select Work —</div>
                 <div data-scroll data-scroll-speed="2" lerp="0.2" class="projects w-dyn-list">
                     <div role="list" class="w-dyn-items">
-                        <div role="listitem" class="collection-item w-dyn-item" data-scroll data-scroll-speed="3">
+                        <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp" data-scroll data-scroll-speed="3">
                             <a href="/bmh.html" class="project-block w-inline-block link">
                                 <div class="project-link-title">Bring Me Home</div>
                                 <div class="separator"> / </div>
                             </a>
                         </div>
-                        <div role="listitem" class="collection-item w-dyn-item" data-scroll data-scroll-speed="2">
+                        <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp" data-scroll data-scroll-speed="2">
                             <a href="/tfl.html" class="project-block w-inline-block link">
                                 <div class="project-link-title">Trees For Life</div>
                                 <div class="separator"> / </div>
@@ -102,11 +106,11 @@
                             </a>
                         </div>
                         -->
-                        <div role="listitem" class="collection-item w-dyn-item" data-scroll data-scroll-speed="1">
+                        <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp" data-scroll data-scroll-speed="1">
                             <a href="/tm.html" class="project-block w-inline-block link">
                                 <div class="project-link-title">Tinder Matchmaker</div>
                                 <div class="separator"> / </div>
-                                <div role="listitem" class="collection-item w-dyn-item" data-scroll data-scroll-speed="4">
+                                <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp" data-scroll data-scroll-speed="4">
                                     <a href="/404.html" class="project-block w-inline-block link">
                                         <div class="project-link-title">Best&amp;Less</div>
                                         <div class="separator"> / </div>
@@ -121,7 +125,7 @@
 
         <div class="row footer" data-scroll-container>
             <div class="main-container" data-section>
-                <div class="footer-spacing" data-scroll>
+                <div class="footer-spacing wow animate__fadeInUp" data-scroll>
                     <div class="col-11">
                         <div id="contact">
                             <a href="mailto: aglmdesigns@gmail.com" class="footer-link text-left">aglmdesigns@gmail.com</a>
@@ -140,8 +144,26 @@
             </div>
         </div>
     </div>
-    <script src="JS/locomotive-scroll.js"></script>
-    <script src="JS/bootstrap/bootstrap.js"></script>
-    <script src="JS/bootstrap/popper.js"></script>
+
 </body>
+<script src="JS/wow/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+<script src="JS/locomotive-scroll.js"></script>
+<script src="JS/index.js"></script>
+<script src="JS/bootstrap/bootstrap.js"></script>
+<script src="JS/bootstrap/bootstrap.min.js"></script>
+<script src="JS/bootstrap/popper.js"></script>
+<script>window.addEventListener("resize", ResizeWindow);
+
+    function ResizeWindow() {
+        var dataSpyList = [].slice.call(document.querySelectorAll('[data-spy="scroll"]'));
+
+        dataSpyList.forEach(function (dataSpyElement) {
+        .bootstrap.ScrollSpy.getInstance(dataSpyElement).refresh(
+        );
+        });
+    }
+</script>
 </html>
