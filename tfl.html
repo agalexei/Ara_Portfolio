@@ -26,7 +26,7 @@
         rel="stylesheet">
 </head>
 
-<body class="body bg-white" id="top-of-page" data-spy="scroll" data-target="#navbar-case-study">
+<body class="body bg-white" id="top-of-page" data-spy="scroll" data-target="#navbar-case-study" data-offset="0">
 
     <!-- TOP NAV -->
 
@@ -71,7 +71,7 @@
         </div>
     </nav>
 
-    <main data-spy="scroll" data-target="#navbar-case-study" data-offset="0">
+    <main>
         <div class="container-fluid hero bg-white">
             <div class="container">
                 <div class="row">
@@ -150,7 +150,7 @@
             </div>
 
             <div class="container section">
-                <div class="row" data-section>
+                <div class="row section" data-section>
                     <div class="col-md-6 mx-auto" data-scroll border-scroll-speed="2">
                         <h4 class="mx-auto text-center" data-scroll>The Problem</h4>
                         <p class="text-normal" border-scroll border-scroll-speed="3">
@@ -167,7 +167,9 @@
                                 alt="case study image" class="img-fluid" border-scroll border-scroll-speed="2">
                         </picture>
                     </div>
+                </div>
 
+                <div class="row section" data-section>
                     <div class="col-sm-6" data-scroll border-scroll-speed="4">
                         <picture>
                             <source media="(min-width: 768px)"
@@ -177,7 +179,7 @@
                         </picture>
                     </div>
 
-                    <div class="col-md-6 mx-auto" data-scroll border-scroll-speed="2">
+                    <div class="col-md-6" data-scroll border-scroll-speed="2">
                         <h4 class="mx-auto text-center" data-scroll>The Solution</h4>
                         <p class="text-normal" border-scroll border-scroll-speed="3">
                             A redesigned homepage that better communicates Trees for Life’s mission to visitors and
@@ -795,7 +797,7 @@
                 </div>
             </div>
 
-        <div class="container-fluid bg-light">
+        <div class="container-fluid bg-white">
             <div class="container section">
                 <div class="row">
                     <div class="col-12">
@@ -810,6 +812,9 @@
 
     <script src="JS/locomotive-scroll.js"></script>
     <script src="JS/index.js"></script>
+    <script src="JS/bootstrap/bootstrap.js"></script>
+    <script src="JS/bootstrap/bootstrap.min.js"></script>
+    <script src="JS/bootstrap/popper.js"></script>
     <script>window.addEventListener("resize", ResizeWindow);
 
         function ResizeWindow() {
