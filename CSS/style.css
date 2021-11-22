@@ -484,5 +484,9 @@ line-height: 88px;
         float: center;
         margin: auto;
     }
+
+    .full-width {
+      width: 100% !important;
+    }
   }
 
