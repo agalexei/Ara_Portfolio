@@ -156,15 +156,4 @@ new WOW().init();
 <script src="JS/bootstrap/bootstrap.min.js"></script>
 <script src="JS/bootstrap/popper.js"></script>
 <script src="JS/"></script>
-<script>window.addEventListener("resize", ResizeWindow);
-
-    function ResizeWindow() {
-        var dataSpyList = [].slice.call(document.querySelectorAll('[data-spy="scroll"]'));
-
-        dataSpyList.forEach(function (dataSpyElement) {
-        .bootstrap.ScrollSpy.getInstance(dataSpyElement).refresh(
-        );
-        });
-    }
-</script>
 </html>
