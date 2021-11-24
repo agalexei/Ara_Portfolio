@@ -326,6 +326,10 @@ color: #fff;
   display: none;
 }
 
+.prototype-link {
+  display: none;
+}
+
  @media only screen and (max-width: 600px) {
 
   body {
@@ -350,5 +354,13 @@ color: #fff;
 
     h2 {
       font-size: 40px !important;
+    }
+
+    .embed-prototype {
+      display: none;
+    }
+
+    .prototype-link {
+      display:contents !important;
     }
  }
