@@ -519,5 +519,10 @@ color: rgba(242, 242, 242, 1) !important;
     .full-width {
       width: 100% !important;
     }
+
+    .gallery-card {
+      width: 90vw !important;
+      margin-top: 2rem !important;
+      margin: auto;
   }
 
