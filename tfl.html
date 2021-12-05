@@ -15,10 +15,8 @@
         crossorigin="anonymous"></script>
     <link href="CSS/style5.css" rel="stylesheet" type="text/css">
     <link href="CSS/base.css" rel="stylesheet" type="text/css">
-    <link href="CSS/locomotive-scroll.css" rel="stylesheet" type="text/css">
     <link href="/font/specimen_files/specimen_stylesheet.css" rel="stylesheet" type="text/css" />
     <link href="https://unpkg.com/pattern.css" rel="stylesheet">
-    <link href="dist/pattern.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -815,18 +813,14 @@
 <script>
 new WOW().init();
 </script>
-<script src="JS/locomotive-scroll.js"></script>
 <script src="JS/index.js"></script>
-<script src="JS/bootstrap/bootstrap.js"></script>
-<script src="JS/bootstrap/bootstrap.min.js"></script>
-<script src="JS/bootstrap/popper.js"></script>
 <script>window.addEventListener("resize", ResizeWindow);
 
     function ResizeWindow() {
         var dataSpyList = [].slice.call(document.querySelectorAll('[data-spy="scroll"]'));
 
         dataSpyList.forEach(function (dataSpyElement) {
-        .bootstrap.ScrollSpy.getInstance(dataSpyElement).refresh(
+        bootstrap.ScrollSpy.getInstance(dataSpyElement).refresh(
         );
         });
 
