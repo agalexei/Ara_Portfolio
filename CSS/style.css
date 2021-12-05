@@ -464,7 +464,7 @@ color: rgba(242, 242, 242, 1) !important;
       }
 
     .separator {
-        display: none;
+      font-size: 48px !important;
     }
 
     .main-container {
