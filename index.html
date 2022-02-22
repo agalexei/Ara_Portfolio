@@ -77,23 +77,51 @@
 
         <div class="row case-studies section wf-section" data-scroll-container>
             <div class="main-container" data-scroll-section>
-                <div data-scroll data-scroll-speed="1" class="section-title" id="work">Select Work —</div>
+                <div data-scroll data-scroll-speed="1" class="section-title" id="work">Commercial Studio Work —</div>
+                <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp" data-scroll data-scroll-speed="3">
+                    <a href="/" class="project-block w-inline-block link">
+                        <div class="project-link-title" onClick="passWord()">Gift Registry</div>
+                        <div class="separator"> / </div>
+                    </a>
+                    <SCRIPT>
+                        function passWord() {
+                        var testV = 1;
+                        var pass1 = prompt('Please enter the code or reach out for it. ',' ');
+                        while (testV < 3) {
+                        if (!pass1) 
+                        history.go(-1);
+                        if (pass1.toLowerCase() == "706061") {
+                        alert('You got it! :)');
+                        window.open('/giftreg.html');
+                        break;
+                        } 
+                        testV+=1;
+                        var pass1 = 
+                        prompt('Not quite right :( Please try again.','Password');
+                        }
+                        if (pass1.toLowerCase()!="password" & testV ==3) 
+                        history.go(-1);
+                        return " ";
+                        } 
+                        </SCRIPT>
+                </div>
+                <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp"
+                    data-scroll data-scroll-speed="4">
+                    <a href="bestandless.html" class="project-block w-inline-block link">
+                        <div class="project-link-title">UI Work</div>
+                        <div class="separator"> / </div>
+                    </a>
+                </div>
+                <div data-scroll data-scroll-speed="1" class="section-title" id="work">UX/UI Bootcamp Case Studies —</div>
                 <div data-scroll data-scroll-speed="2" lerp="0.2" class="projects w-dyn-list">
                     <div role="list" class="w-dyn-items">
-                        <!---
-                        <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp" data-scroll data-scroll-speed="3">
-                            <a href="giftreg.html" class="project-block w-inline-block link">
-                                <div class="project-link-title">Gift Registry - Best&Less</div>
-                                <div class="separator"> / </div>
-                            </a>
-                        </div>-->
                         <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp" data-scroll
-                            data-scroll-speed="3">
-                            <a href="bmh.html" class="project-block w-inline-block link">
-                                <div class="project-link-title">Bring Me Home</div>
-                                <div class="separator"> / </div>
-                            </a>
-                        </div>
+                        data-scroll-speed="3">
+                        <a href="bmh.html" class="project-block w-inline-block link">
+                            <div class="project-link-title">Bring Me Home</div>
+                            <div class="separator"> / </div>
+                        </a>
+                    </div>
                         <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp" data-scroll
                             data-scroll-speed="2">
                             <a href="tfl.html" class="project-block w-inline-block link">
@@ -123,14 +151,6 @@
                                 <div class="project-link-title">Tinder Matchmaker</div>
                                 <div class="separator"> / </div>
                                 <br>
-                                <div data-scroll data-scroll-speed="1" class="section-title" id="work">UI Work —</div>
-                                <div role="listitem" class="collection-item w-dyn-item wow animate__fadeInUp"
-                                    data-scroll data-scroll-speed="4">
-                                    <a href="bestandless.html" class="project-block w-inline-block link">
-                                        <div class="project-link-title">Best&amp;Less</div>
-                                        <div class="separator"> / </div>
-                                    </a>
-                                </div>
                             </a>
                         </div>
                     </div>
