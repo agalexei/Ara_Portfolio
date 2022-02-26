@@ -507,3 +507,10 @@ color: rgba(242, 242, 242, 1) !important;
       margin: auto;
     }
   }
+
+  @media screen and (min-width: 600px) {
+    .index-body {
+      margin-left:10vw;
+      margin-right: 10vw;
+    }
+  }
