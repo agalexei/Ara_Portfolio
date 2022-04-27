@@ -206,10 +206,6 @@ color: #fff;
   padding: 4vw !important;
 }
 
-.img-fluid:hover {
-  box-shadow: rgba(236, 30, 100, 0.9) 24px 24px !important;
-}
-
  .colour1 {
   background-color: #F21D6B;
   padding:24px;
