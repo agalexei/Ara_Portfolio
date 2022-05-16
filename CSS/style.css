@@ -529,8 +529,9 @@ color: #ffffff !important;
   }
 
   .object {
-    animation: MoveUpDown 1.6s linear infinite;
+    animation: MoveUpDown 1.6s infinite;
     position: relative;
+    animation-timing-function: ease-in-out;
   }
   
   @keyframes MoveUpDown {
