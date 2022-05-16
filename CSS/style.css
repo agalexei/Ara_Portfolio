@@ -80,6 +80,7 @@ html {
     font-size: 14px;
     line-height: 100%;
     padding: 8rem;
+    padding-top: 0!important;
   }
   
   .main-container {
@@ -521,6 +522,24 @@ color: #ffffff !important;
   .line {
     color: #742ff6;
     font-weight: 600;
+  }
+
+  .arrow:hover {
+    fill: #cfbdec!important;
+  }
+
+  .object {
+    animation: MoveUpDown 1.6s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 8px;
+    }
   }
 
   @media screen and (min-width: 600px) {
